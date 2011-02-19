@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E2D3C62131064A200354F77 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E2D3C61131064A200354F77 /* Preferences.xib */; };
+		4E2D3C6E1310681200354F77 /* PreferencesController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4E2D3C6D1310681200354F77 /* PreferencesController.py */; };
 		4E342CCF130E3D640048887A /* MEPPController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4E342CCE130E3D640048887A /* MEPPController.py */; };
 		77631A270C06C501005415CB /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77631A260C06C501005415CB /* Python.framework */; };
 		77631A3F0C0748CF005415CB /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 77631A3E0C0748CF005415CB /* main.py */; };
@@ -25,6 +27,8 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* MEPP_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEPP_Prefix.pch; sourceTree = "<group>"; };
+		4E2D3C61131064A200354F77 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		4E2D3C6D1310681200354F77 /* PreferencesController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = PreferencesController.py; sourceTree = "<group>"; };
 		4E342CCE130E3D640048887A /* MEPPController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MEPPController.py; sourceTree = "<group>"; };
 		77631A260C06C501005415CB /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /System/Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
 		77631A3E0C0748CF005415CB /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
@@ -85,12 +89,14 @@
 		29B97314FDCFA39411CA2CEA /* MEPP */ = {
 			isa = PBXGroup;
 			children = (
+				4E2D3C61131064A200354F77 /* Preferences.xib */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				4E342CCE130E3D640048887A /* MEPPController.py */,
+				4E2D3C6D1310681200354F77 /* PreferencesController.py */,
 			);
 			name = MEPP;
 			sourceTree = "<group>";
@@ -179,6 +185,8 @@
 				7790198F0C07548A00326F66 /* MEPPAppDelegate.py in Resources */,
 				77C8C1F90C07829500965286 /* MainMenu.xib in Resources */,
 				4E342CCF130E3D640048887A /* MEPPController.py in Resources */,
+				4E2D3C62131064A200354F77 /* Preferences.xib in Resources */,
+				4E2D3C6E1310681200354F77 /* PreferencesController.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

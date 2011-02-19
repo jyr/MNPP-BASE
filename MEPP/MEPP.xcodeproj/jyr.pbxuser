@@ -5,6 +5,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 4EE22AC0130CDDF3000E787D /* MEPP */;
 		activeTarget = 8D1107260486CEB800E47090 /* MEPP */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* MEPP */,
+		);
 		codeSenseManager = 4EE22AD5130CDE02000E787D /* Code sense */;
 		executables = (
 			4EE22AC0130CDDF3000E787D /* MEPP */,
@@ -29,7 +32,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					832,
 					20,
 					48,
 					43,
@@ -51,7 +54,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					391,
-					164,
+					655,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXFindDataSource_MessageID,
@@ -84,6 +87,17 @@
 			PBXWorkspaceStateSaveDate = 319827406;
 		};
 		perUserProjectItems = {
+			4E2D3CB81310709000354F77 /* PBXTextBookmark */ = 4E2D3CB81310709000354F77 /* PBXTextBookmark */;
+			4E2D3CB91310709000354F77 /* PBXTextBookmark */ = 4E2D3CB91310709000354F77 /* PBXTextBookmark */;
+			4E2D3CBA1310709000354F77 /* PBXTextBookmark */ = 4E2D3CBA1310709000354F77 /* PBXTextBookmark */;
+			4E2D3CBB1310709000354F77 /* PBXTextBookmark */ = 4E2D3CBB1310709000354F77 /* PBXTextBookmark */;
+			4E2D3CBC1310709000354F77 /* PBXTextBookmark */ = 4E2D3CBC1310709000354F77 /* PBXTextBookmark */;
+			4E2D3CDE1310740D00354F77 /* PBXTextBookmark */ = 4E2D3CDE1310740D00354F77 /* PBXTextBookmark */;
+			4E2D3CDF1310744400354F77 /* PBXTextBookmark */ = 4E2D3CDF1310744400354F77 /* PBXTextBookmark */;
+			4E2D3CF513107A2900354F77 /* PBXTextBookmark */ = 4E2D3CF513107A2900354F77 /* PBXTextBookmark */;
+			4E2D3CF613107A2900354F77 /* PBXTextBookmark */ = 4E2D3CF613107A2900354F77 /* PBXTextBookmark */;
+			4E2D3CF713107A2900354F77 /* PBXTextBookmark */ = 4E2D3CF713107A2900354F77 /* PBXTextBookmark */;
+			4E2D3CF813107A2900354F77 /* PBXTextBookmark */ = 4E2D3CF813107A2900354F77 /* PBXTextBookmark */;
 			4E342D12130E43980048887A = 4E342D12130E43980048887A /* PBXTextBookmark */;
 			4E342D1B130E43CE0048887A = 4E342D1B130E43CE0048887A /* PBXTextBookmark */;
 			4E342D1E130E44050048887A = 4E342D1E130E44050048887A /* PBXTextBookmark */;
@@ -94,11 +108,128 @@
 		userBuildSettings = {
 		};
 	};
+	4E2D3C6D1310681200354F77 /* PreferencesController.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1456}}";
+			sepNavSelRange = "{572, 0}";
+			sepNavVisRange = "{0, 858}";
+		};
+	};
+	4E2D3CB81310709000354F77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4E2D3C6D1310681200354F77 /* PreferencesController.py */;
+		name = "PreferencesController.py: 14";
+		rLen = 21;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 494;
+		vrLoc = 2059;
+	};
+	4E2D3CB91310709000354F77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77631A3E0C0748CF005415CB /* main.py */;
+		name = "main.py: 21";
+		rLen = 0;
+		rLoc = 440;
+		rType = 0;
+		vrLen = 352;
+		vrLoc = 164;
+	};
+	4E2D3CBA1310709000354F77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* MEPPAppDelegate.py */;
+		name = "MEPPAppDelegate.py: 14";
+		rLen = 0;
+		rLoc = 310;
+		rType = 0;
+		vrLen = 481;
+		vrLoc = 32;
+	};
+	4E2D3CBB1310709000354F77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4E342CCE130E3D640048887A /* MEPPController.py */;
+		name = "MEPPController.py: 143";
+		rLen = 0;
+		rLoc = 8;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 3263;
+	};
+	4E2D3CBC1310709000354F77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4E342CCE130E3D640048887A /* MEPPController.py */;
+		name = "MEPPController.py: 123";
+		rLen = 0;
+		rLoc = 3297;
+		rType = 0;
+		vrLen = 372;
+		vrLoc = 67;
+	};
+	4E2D3CDE1310740D00354F77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4E342CCE130E3D640048887A /* MEPPController.py */;
+		name = "MEPPController.py: 50";
+		rLen = 0;
+		rLoc = 1273;
+		rType = 0;
+		vrLen = 1047;
+		vrLoc = 693;
+	};
+	4E2D3CDF1310744400354F77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4E342CCE130E3D640048887A /* MEPPController.py */;
+		name = "MEPPController.py: 66";
+		rLen = 0;
+		rLoc = 1708;
+		rType = 0;
+		vrLen = 1087;
+		vrLoc = 872;
+	};
+	4E2D3CF513107A2900354F77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* MEPPAppDelegate.py */;
+		name = "MEPPAppDelegate.py: 14";
+		rLen = 0;
+		rLoc = 310;
+		rType = 0;
+		vrLen = 513;
+		vrLoc = 0;
+	};
+	4E2D3CF613107A2900354F77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4E2D3C6D1310681200354F77 /* PreferencesController.py */;
+		name = "PreferencesController.py: 28";
+		rLen = 0;
+		rLoc = 572;
+		rType = 0;
+		vrLen = 858;
+		vrLoc = 0;
+	};
+	4E2D3CF713107A2900354F77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4E342CCE130E3D640048887A /* MEPPController.py */;
+		name = "MEPPController.py: 12";
+		rLen = 0;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 956;
+		vrLoc = 0;
+	};
+	4E2D3CF813107A2900354F77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4E342CCE130E3D640048887A /* MEPPController.py */;
+		name = "MEPPController.py: 12";
+		rLen = 0;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 375;
+		vrLoc = 3076;
+	};
 	4E342CCE130E3D640048887A /* MEPPController.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {551, 1768}}";
-			sepNavSelRange = "{730, 0}";
-			sepNavVisRange = "{739, 446}";
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 2119}}";
+			sepNavSelRange = "{271, 0}";
+			sepNavVisRange = "{3076, 375}";
 		};
 	};
 	4E342D0D130E43300048887A /* MEMPTasks.py */ = {
@@ -143,7 +274,7 @@
 		fRef = 4E342CCE130E3D640048887A /* MEPPController.py */;
 		name = "MEPPController.py: 29";
 		rLen = 0;
-		rLoc = 730;
+		rLoc = 8;
 		rType = 0;
 		vrLen = 495;
 		vrLoc = 437;
@@ -153,7 +284,7 @@
 		fRef = 4E342CCE130E3D640048887A /* MEPPController.py */;
 		name = "MEPPController.py: 29";
 		rLen = 0;
-		rLoc = 730;
+		rLoc = 8;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 739;
@@ -204,17 +335,18 @@
 	};
 	77631A3E0C0748CF005415CB /* main.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {621, 338}}";
-			sepNavSelRange = "{301, 0}";
-			sepNavVisRange = "{123, 364}";
+			sepNavIntBoundsRect = "{{0, 0}, {1009, 351}}";
+			sepNavSelRange = "{440, 0}";
+			sepNavVisRange = "{164, 352}";
 			sepNavWindowFrame = "{{15, 184}, {1122, 589}}";
 		};
 	};
 	7790198E0C07548A00326F66 /* MEPPAppDelegate.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 260}}";
-			sepNavSelRange = "{371, 0}";
-			sepNavVisRange = "{0, 515}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 515}}";
+			sepNavSelRange = "{310, 0}";
+			sepNavVisRange = "{0, 513}";
+			sepNavWindowFrame = "{{15, 184}, {1122, 589}}";
 		};
 	};
 	8D1107260486CEB800E47090 /* MEPP */ = {
