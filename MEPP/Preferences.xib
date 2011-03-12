@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="3"/>
+			<integer value="7"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -72,7 +72,7 @@
 											<object class="NSButtonCell" key="NSCell" id="703135563">
 												<int key="NSCellFlags">67239424</int>
 												<int key="NSCellFlags2">0</int>
-												<string key="NSContents">Start services at run MEMP</string>
+												<string key="NSContents">Start services at run MEPP</string>
 												<object class="NSFont" key="NSSupport" id="619685582">
 													<string key="NSName">LucidaGrande</string>
 													<double key="NSSize">13</double>
@@ -104,7 +104,7 @@
 											<object class="NSButtonCell" key="NSCell" id="79876710">
 												<int key="NSCellFlags">67239424</int>
 												<int key="NSCellFlags2">0</int>
-												<string key="NSContents">Stop services at exit of MEMP</string>
+												<string key="NSContents">Stop services at exit of MEPP</string>
 												<reference key="NSSupport" ref="619685582"/>
 												<reference key="NSControlView" ref="125750944"/>
 												<int key="NSButtonFlags">1211912703</int>
@@ -127,7 +127,7 @@
 											<object class="NSButtonCell" key="NSCell" id="739804285">
 												<int key="NSCellFlags">67239424</int>
 												<int key="NSCellFlags2">0</int>
-												<string key="NSContents">Open MEMP page at run MEMP</string>
+												<string key="NSContents">Open MEMP page at run MEPP</string>
 												<reference key="NSSupport" ref="619685582"/>
 												<reference key="NSControlView" ref="605278676"/>
 												<int key="NSButtonFlags">1211912703</int>
@@ -153,7 +153,7 @@
 							<object class="NSTextFieldCell" key="NSTitleCell">
 								<int key="NSCellFlags">67239424</int>
 								<int key="NSCellFlags2">0</int>
-								<string key="NSContents">MEMP Config</string>
+								<string key="NSContents">MEPP Config</string>
 								<object class="NSFont" key="NSSupport" id="26">
 									<string key="NSName">LucidaGrande</string>
 									<double key="NSSize">11</double>
