@@ -1,286 +1,0 @@
-TMEPP
-v7
-r0
-t319610376.356226
-cCheck dependencies
-cProcessInfoPlistFile /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/Info.plist Info.plist
-cCopyStringsFile /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCpResource build/Debug/MEPP.app/Contents/Resources/main.py main.py
-cCpResource build/Debug/MEPP.app/Contents/Resources/MEPPAppDelegate.py MEPPAppDelegate.py
-cCompileXIB /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/English.lproj/MainMenu.xib
-cProcessPCH /var/folders/vV/vVYXG0EWGXKFSdVsptlB+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEPP_Prefix-hhleecenclxazrcxzjqdqnqykahm/MEPP_Prefix.pch.gch MEPP_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/vV/vVYXG0EWGXKFSdVsptlB+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEPP_Prefix-caryxtcuwoearfgxhdqjyjbtasuw/MEPP_Prefix.pch.gch MEPP_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MEPP.build/Debug/MEPP.build/Objects-normal/i386/main.o /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MEPP.build/Debug/MEPP.build/Objects-normal/ppc/main.o /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cLd /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/i386/MEPP normal i386
-cLd /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/ppc/MEPP normal ppc
-cCreateUniversalBinary /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/MacOS/MEPP normal "i386 ppc"
-cTouch /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app
-
-N/Developer/SDKs/MacOSX10.5.sdk
-c000000004C238B9B00000000000000EE
-t1277397915
-s238
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Python.framework/Headers/Python.h
-c000000004864C5EF000000000000106C
-t1214563823
-s4204
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004B5FA877000000000000A5E0
-t1264560247
-s42464
-
-N/System/Library/Frameworks/Python.framework/Python
-c000000004C2437DE00000000003E7770
-t1277442014
-s4093808
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/English.lproj/InfoPlist.strings
-c000000004D5CA67200000000000000CA
-t1297917554
-s202
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/English.lproj/MainMenu.xib
-c000000004D5CA672000000000001FC79
-t1297917554
-s130169
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/MEPPAppDelegate.py
-c000000004D5CA6720000000000000140
-t1297917554
-s320
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/MEPP_Prefix.pch
-c000000004D5CA672000000000000008B
-t1297917554
-s139
-i<Cocoa/Cocoa.h>
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app
-t1297917576
-s102
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/Info.plist
-t1297917566
-s821
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/MacOS/MEPP
-t1297917576
-s42088
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/PkgInfo
-t1297917566
-s8
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1297917567
-s202
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/Resources/English.lproj/MainMenu.nib
-t1297917569
-s28183
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/Resources/MEPPAppDelegate.py
-t1297917566
-s320
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/Resources/main.py
-t1297917566
-s406
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/i386/MEPP
-t1297917576
-s18032
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/i386/MEPP.LinkFileList
-c000000004D5CA67E000000000000006B
-t1297917566
-s107
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/i386/main.o
-t1297917575
-s10808
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/ppc/MEPP
-t1297917576
-s17512
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/ppc/MEPP.LinkFileList
-c000000004D5CA67E000000000000006A
-t1297917566
-s106
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/ppc/main.o
-t1297917575
-s11600
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/main.m
-c000000004D5CA6720000000000000713
-t1297917554
-s1811
-i<Python/Python.h>
-i<Cocoa/Cocoa.h>
-
-N/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/main.py
-c000000004D5CA6720000000000000196
-t1297917554
-s406
-
-N/var/folders/vV/vVYXG0EWGXKFSdVsptlB+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEPP_Prefix-caryxtcuwoearfgxhdqjyjbtasuw/MEPP_Prefix.pch.gch
-t1297917574
-s50315472
-
-N/var/folders/vV/vVYXG0EWGXKFSdVsptlB+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEPP_Prefix-hhleecenclxazrcxzjqdqnqykahm/MEPP_Prefix.pch.gch
-t1297917574
-s54002064
-
-NInfo.plist
-c000000004D5CA6720000000000000394
-t1297917554
-s916
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies319610366#319610366#0(0"0(0#1#0"3343187568374212096#0"0#
-
-CCompileC build/MEPP.build/Debug/MEPP.build/Objects-normal/i386/main.o /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s319610374.834773
-e319610375.309449
-r1
-xCompileC
-xbuild/MEPP.build/Debug/MEPP.build/Objects-normal/i386/main.o
-x/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/main.m319610374#319610375#0(0"0(0#0#52"/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/main.m8606406752#1092"    cd /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/MEPP.hmap -F/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug -I/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/include -I/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/DerivedSources/i386 -I/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/DerivedSources -include /var/folders/vV/vVYXG0EWGXKFSdVsptlB+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEPP_Prefix-hhleecenclxazrcxzjqdqnqykahm/MEPP_Prefix.pch -c /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/main.m -o /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/i386/main.o0#
-
-CCompileC build/MEPP.build/Debug/MEPP.build/Objects-normal/ppc/main.o /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s319610374.835884
-e319610375.311959
-r1
-xCompileC
-xbuild/MEPP.build/Debug/MEPP.build/Objects-normal/ppc/main.o
-x/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/main.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/main.m319610374#319610375#0(0"0(0#0#52"/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/main.m8600387552#1099"    cd /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/MEPP.hmap -F/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug -I/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/include -I/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/DerivedSources/ppc -I/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/DerivedSources -include /var/folders/vV/vVYXG0EWGXKFSdVsptlB+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEPP_Prefix-caryxtcuwoearfgxhdqjyjbtasuw/MEPP_Prefix.pch -c /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/main.m -o /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/ppc/main.o0#
-
-CCompileXIB /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/English.lproj/MainMenu.xib
-s319610366.588203
-e319610369.112358
-r1
-xCompileXIB
-x/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/English.lproj/MainMenu.xib
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib319610366#319610369#0(0"0(0#0#72"/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/English.lproj/MainMenu.xib8606036416#382"    cd /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/Resources/English.lproj/MainMenu.nib /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
-
-CCopyStringsFile /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s319610366.585282
-e319610367.645053
-r1
-xCopyStringsFile
-x/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings319610366#319610367#0(0"0(0#0#77"/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/English.lproj/InfoPlist.strings8597070016#377"    cd /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/Resources/English.lproj0#
-
-CCpResource build/Debug/MEPP.app/Contents/Resources/MEPPAppDelegate.py MEPPAppDelegate.py
-s319610366.587704
-e319610366.797005
-r1
-xCpResource
-xbuild/Debug/MEPP.app/Contents/Resources/MEPPAppDelegate.py
-xMEPPAppDelegate.py
-lSLF07#2@23"Copy MEPPAppDelegate.py319610366#319610366#0(0"0(0#0#64"/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/MEPPAppDelegate.py8608981312#366"    cd /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/MEPPAppDelegate.py /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/Resources0#
-
-CCpResource build/Debug/MEPP.app/Contents/Resources/main.py main.py
-s319610366.587156
-e319610366.796779
-r1
-xCpResource
-xbuild/Debug/MEPP.app/Contents/Resources/main.py
-xmain.py
-lSLF07#2@12"Copy main.py319610366#319610366#0(0"0(0#0#53"/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/main.py8595037728#355"    cd /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/main.py /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/Resources0#
-
-CCreateUniversalBinary /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/MacOS/MEPP normal "i386 ppc"
-s319610376.298046
-e319610376.353143
-r1
-xCreateUniversalBinary
-x/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/MacOS/MEPP
-xnormal
-xi386 ppc
-lSLF07#2@80"CreateUniversalBinary build/Debug/MEPP.app/Contents/MacOS/MEPP normal "i386 ppc"319610376#319610376#0(0"0(0#0#54"/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/i386 ppc8608932288#383"    cd /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP    /usr/bin/lipo -create /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/i386/MEPP /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/ppc/MEPP -output /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/MacOS/MEPP0#
-
-CLd /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/i386/MEPP normal i386
-s319610375.309535
-e319610376.296476
-r1
-xLd
-x/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/i386/MEPP
-xnormal
-xi386
-lSLF07#2@109"Link /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/i386/MEPP319610375#319610376#0(0"0(0#0#0"8609733344#594"    cd /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug -F/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug -filelist /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/i386/MEPP.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework Python -o /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/i386/MEPP0#
-
-CLd /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/ppc/MEPP normal ppc
-s319610375.312039
-e319610376.297956
-r1
-xLd
-x/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/ppc/MEPP
-xnormal
-xppc
-lSLF07#2@108"Link /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/ppc/MEPP319610375#319610376#0(0"0(0#0#0"8609408384#591"    cd /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug -F/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug -filelist /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/ppc/MEPP.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework Python -o /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/Objects-normal/ppc/MEPP0#
-
-CProcessInfoPlistFile /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/Info.plist Info.plist
-s319610366.213911
-e319610366.585183
-r1
-xProcessInfoPlistFile
-x/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist319610366#319610366#0(0"0(0#0#56"/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/Info.plist27584981513797680#317"    cd /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP    builtin-infoPlistUtility Info.plist -genpkginfo /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app/Contents/Info.plist0#
-
-CProcessPCH /var/folders/vV/vVYXG0EWGXKFSdVsptlB+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEPP_Prefix-caryxtcuwoearfgxhdqjyjbtasuw/MEPP_Prefix.pch.gch MEPP_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-s319610369.113723
-e319610374.389569
-r1
-xProcessPCH
-x/var/folders/vV/vVYXG0EWGXKFSdVsptlB+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEPP_Prefix-caryxtcuwoearfgxhdqjyjbtasuw/MEPP_Prefix.pch.gch
-xMEPP_Prefix.pch
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile MEPP_Prefix.pch319610369#319610374#0(0"0(0#0#61"/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/MEPP_Prefix.pch8609280384#1004"    cd /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/MEPP.hmap -F/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug -I/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/include -I/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/DerivedSources/ppc -I/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/DerivedSources -c /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/MEPP_Prefix.pch -o /var/folders/vV/vVYXG0EWGXKFSdVsptlB+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEPP_Prefix-caryxtcuwoearfgxhdqjyjbtasuw/MEPP_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/vV/vVYXG0EWGXKFSdVsptlB+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEPP_Prefix-hhleecenclxazrcxzjqdqnqykahm/MEPP_Prefix.pch.gch MEPP_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s319610369.112593
-e319610374.834653
-r1
-xProcessPCH
-x/var/folders/vV/vVYXG0EWGXKFSdVsptlB+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEPP_Prefix-hhleecenclxazrcxzjqdqnqykahm/MEPP_Prefix.pch.gch
-xMEPP_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile MEPP_Prefix.pch319610369#319610374#0(0"0(0#0#61"/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/MEPP_Prefix.pch8609731072#996"    cd /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/MEPP.hmap -F/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug -I/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/include -I/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/DerivedSources/i386 -I/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/MEPP.build/Debug/MEPP.build/DerivedSources -c /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/MEPP_Prefix.pch -o /var/folders/vV/vVYXG0EWGXKFSdVsptlB+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEPP_Prefix-hhleecenclxazrcxzjqdqnqykahm/MEPP_Prefix.pch.gch0#
-
-CTouch /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app
-s319610376.353225
-e319610376.356178
-r1
-xTouch
-x/Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app
-lSLF07#2@72"Touch /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app319610376#319610376#0(0"0(0#0#0"8606621952#142"    cd /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP    /usr/bin/touch -c /Users/jyr/Desarrollo/personal/MEPP-BASE/MEPP/build/Debug/MEPP.app0#
-
