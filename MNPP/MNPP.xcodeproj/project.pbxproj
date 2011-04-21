@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E89A4D3135FE26E009FDB29 /* php.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E89A4D2135FE26E009FDB29 /* php.png */; };
+		4E89A5AB135FF2FD009FDB29 /* General.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E89A5AA135FF2FD009FDB29 /* General.xib */; };
+		4E89A5B3135FF463009FDB29 /* Php.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E89A5B2135FF463009FDB29 /* Php.xib */; };
 		4ED017FD1347BC420003ACF3 /* MNPPController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4ED017FC1347BC420003ACF3 /* MNPPController.py */; };
 		4ED018081347C1050003ACF3 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED018071347C1050003ACF3 /* Preferences.xib */; };
 		4ED0180D1347C1620003ACF3 /* PreferencesController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */; };
@@ -27,6 +30,9 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* MNPP_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNPP_Prefix.pch; sourceTree = "<group>"; };
+		4E89A4D2135FE26E009FDB29 /* php.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = php.png; path = ../../../../Downloads/php.png; sourceTree = SOURCE_ROOT; };
+		4E89A5AA135FF2FD009FDB29 /* General.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = General.xib; sourceTree = "<group>"; };
+		4E89A5B2135FF463009FDB29 /* Php.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Php.xib; sourceTree = "<group>"; };
 		4ED017FC1347BC420003ACF3 /* MNPPController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MNPPController.py; sourceTree = "<group>"; };
 		4ED018071347C1050003ACF3 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
 		4ED0180C1347C1620003ACF3 /* PreferencesController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = PreferencesController.py; sourceTree = "<group>"; };
@@ -89,6 +95,7 @@
 		29B97314FDCFA39411CA2CEA /* MNPP */ = {
 			isa = PBXGroup;
 			children = (
+				4E89A4D2135FE26E009FDB29 /* php.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -97,6 +104,8 @@
 				4ED017FC1347BC420003ACF3 /* MNPPController.py */,
 				4ED018071347C1050003ACF3 /* Preferences.xib */,
 				4ED0180C1347C1620003ACF3 /* PreferencesController.py */,
+				4E89A5AA135FF2FD009FDB29 /* General.xib */,
+				4E89A5B2135FF463009FDB29 /* Php.xib */,
 			);
 			name = MNPP;
 			sourceTree = "<group>";
@@ -187,6 +196,9 @@
 				4ED017FD1347BC420003ACF3 /* MNPPController.py in Resources */,
 				4ED018081347C1050003ACF3 /* Preferences.xib in Resources */,
 				4ED0180D1347C1620003ACF3 /* PreferencesController.py in Resources */,
+				4E89A4D3135FE26E009FDB29 /* php.png in Resources */,
+				4E89A5AB135FF2FD009FDB29 /* General.xib in Resources */,
+				4E89A5B3135FF463009FDB29 /* Php.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -94,7 +94,7 @@ class MNPPController (NSWindowController):
     @objc.IBAction
     def startMySQL_(self, sender):
 		try:
-			startMySQL = self.path + "startMySQL"
+			startMySQL = self.path + "startMySQL 53"
 			self.auth.executeWithPrivileges(startMySQL)
 			self.startMySQL.setHidden_(YES)
 			self.stopMySQL.setHidden_(NO)
