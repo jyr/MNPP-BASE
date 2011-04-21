@@ -138,8 +138,9 @@ class MNPPController (NSWindowController):
 	
     @objc.IBAction
     def showPreferencesWindow_(self, sender):
-		self.preferencesController = PreferencesController.alloc().init()
-		self.preferencesController.showWindow_(self)
+		PreferencesController.show()
+		#self.preferencesController = PreferencesController.alloc().init()
+		#self.preferencesController.showWindow_(self)
 
     @objc.IBAction
     def exit_(self, sender):

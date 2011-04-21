@@ -11,7 +11,8 @@ from Authorization import Authorization
 
 import objc
 
-class PreferencesController (NSWindowController):
+#class PreferencesController (NSWindowController):
+class PreferencesController (NSViewController):
 	start = objc.IBOutlet()
 	stop = objc.IBOutlet()
 	open = objc.IBOutlet()
@@ -19,19 +20,42 @@ class PreferencesController (NSWindowController):
 	mysqlPort = objc.IBOutlet()
 	phpPort = objc.IBOutlet()
 
-	def init(self):
-		self.initWithWindowNibName_("Preferences")
+	#def init(self):
+	#	self.initWithWindowNibName_("Preferences")
 		
-		return self
+	#	return self
 	
+	def show(self):
+		self.PreferencesController = NSViewController.alloc().initWithNibName_bundle_("Preferences", None)
+		self.preferencesView = self.PreferencesController.view()
+	show = classmethod(show)	
+		
+	def resetSubviews(self):
+		for i in range(0, len(self.preferencesView.subviews())):
+			self.preferencesView.subviews().removeObjectAtIndex_(i)
+	
+	@objc.IBAction
+	def general_(self, sender):
+		self.resetSubviews()
+		self.GeneralController = NSViewController.alloc().initWithNibName_bundle_("General", None)
+		self.generalView = self.GeneralController.view()
+		self.preferencesView.addSubview_(self.generalView)
+	
+	@objc.IBAction
+	def php_(self, sender):
+		self.resetSubviews()
+		self.PhpController = NSViewController.alloc().initWithNibName_bundle_("Php", None)
+		self.phpView = self.PhpController.view()
+		self.preferencesView.addSubview_(self.phpView)
+		
 	def windowDidLoad(self):
 		self.setSettings()
 
-	def show(self):
-		self.preferencesController = PreferencesController.alloc().init()
-		self.preferencesController.showWindow_(self)
+	#def show(self):
+	#	self.preferencesController = PreferencesController.alloc().init()
+	#	self.preferencesController.showWindow_(self)
 
-	show = classmethod(show)
+	#show = classmethod(show)
 	
 	def setSettings(self):
 		settings = NSUserDefaults.standardUserDefaults()
