@@ -11,27 +11,36 @@ from Authorization import Authorization
 
 import objc
 
-#class PreferencesController (NSWindowController):
-class PreferencesController (NSViewController):
+class PreferencesController (NSWindowController):
 	start = objc.IBOutlet()
 	stop = objc.IBOutlet()
 	open = objc.IBOutlet()
 	nginxPort = objc.IBOutlet()
 	mysqlPort = objc.IBOutlet()
 	phpPort = objc.IBOutlet()
-
-	#def init(self):
-	#	self.initWithWindowNibName_("Preferences")
-		
-	#	return self
+	preferencesView = objc.IBOutlet()
 	
 	def show(self):
-		self.PreferencesController = NSViewController.alloc().initWithNibName_bundle_("Preferences", None)
-		self.preferencesView = self.PreferencesController.view()
+		try:
+			if self.PreferencesController:
+				self.PreferencesController.close()
+		except:
+			pass
+
+		self.PreferencesController = NSWindowController.alloc().initWithWindowNibName_("Preferences")
+		self.PreferencesController.showWindow_(self)
+		self.PreferencesController.retain()
+		self.PreferencesController.window().center()
+		
+		self.preferencesView = self.PreferencesController.window().contentView()
+		self.GeneralController = NSViewController.alloc().initWithNibName_bundle_("General", None)
+		self.generalView = self.GeneralController.view()
+		self.preferencesView.addSubview_(self.generalView)
+		
 	show = classmethod(show)	
 		
 	def resetSubviews(self):
-		for i in range(0, len(self.preferencesView.subviews())):
+		for i in range(1, len(self.preferencesView.subviews())):
 			self.preferencesView.subviews().removeObjectAtIndex_(i)
 	
 	@objc.IBAction
@@ -47,7 +56,7 @@ class PreferencesController (NSViewController):
 		self.PhpController = NSViewController.alloc().initWithNibName_bundle_("Php", None)
 		self.phpView = self.PhpController.view()
 		self.preferencesView.addSubview_(self.phpView)
-		
+	"""
 	def windowDidLoad(self):
 		self.setSettings()
 
@@ -131,5 +140,4 @@ class PreferencesController (NSViewController):
 			settings.setObject_forKey_("9000", 'phpPort')
 		
 		settings.synchronize()
-		
-
+	"""
