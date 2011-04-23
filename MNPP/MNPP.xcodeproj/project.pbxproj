@@ -13,6 +13,7 @@
 		4ED017FD1347BC420003ACF3 /* MNPPController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4ED017FC1347BC420003ACF3 /* MNPPController.py */; };
 		4ED018081347C1050003ACF3 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED018071347C1050003ACF3 /* Preferences.xib */; };
 		4ED0180D1347C1620003ACF3 /* PreferencesController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */; };
+		4EDD333013634BA60053CCA2 /* GeneralViewController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD332F13634BA60053CCA2 /* GeneralViewController.py */; };
 		77631A270C06C501005415CB /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77631A260C06C501005415CB /* Python.framework */; };
 		77631A3F0C0748CF005415CB /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 77631A3E0C0748CF005415CB /* main.py */; };
 		7790198F0C07548A00326F66 /* MNPPAppDelegate.py in Resources */ = {isa = PBXBuildFile; fileRef = 7790198E0C07548A00326F66 /* MNPPAppDelegate.py */; };
@@ -36,6 +37,7 @@
 		4ED017FC1347BC420003ACF3 /* MNPPController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MNPPController.py; sourceTree = "<group>"; };
 		4ED018071347C1050003ACF3 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
 		4ED0180C1347C1620003ACF3 /* PreferencesController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = PreferencesController.py; sourceTree = "<group>"; };
+		4EDD332F13634BA60053CCA2 /* GeneralViewController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = GeneralViewController.py; sourceTree = "<group>"; };
 		77631A260C06C501005415CB /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /System/Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
 		77631A3E0C0748CF005415CB /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
 		7790198E0C07548A00326F66 /* MNPPAppDelegate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MNPPAppDelegate.py; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				4ED0180C1347C1620003ACF3 /* PreferencesController.py */,
 				4E89A5AA135FF2FD009FDB29 /* General.xib */,
 				4E89A5B2135FF463009FDB29 /* Php.xib */,
+				4EDD332F13634BA60053CCA2 /* GeneralViewController.py */,
 			);
 			name = MNPP;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				4E89A4D3135FE26E009FDB29 /* php.png in Resources */,
 				4E89A5AB135FF2FD009FDB29 /* General.xib in Resources */,
 				4E89A5B3135FF463009FDB29 /* Php.xib in Resources */,
+				4EDD333013634BA60053CCA2 /* GeneralViewController.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

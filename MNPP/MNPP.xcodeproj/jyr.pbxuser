@@ -126,7 +126,7 @@
 		fRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */;
 		name = "PreferencesController.py: 28";
 		rLen = 0;
-		rLoc = 1488;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 577;
 		vrLoc = 236;
@@ -146,7 +146,7 @@
 		fRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */;
 		name = "PreferencesController.py: 27";
 		rLen = 0;
-		rLoc = 793;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 290;
 		vrLoc = 311;
@@ -156,7 +156,7 @@
 		fRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */;
 		name = "PreferencesController.py: 31";
 		rLen = 0;
-		rLoc = 779;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 432;
 		vrLoc = 437;
@@ -176,7 +176,7 @@
 		fRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */;
 		name = "PreferencesController.py: 31";
 		rLen = 0;
-		rLoc = 779;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 403;
 		vrLoc = 466;
@@ -186,7 +186,7 @@
 		fRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */;
 		name = "PreferencesController.py: 34";
 		rLen = 0;
-		rLoc = 812;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 378;
 		vrLoc = 494;
@@ -196,7 +196,7 @@
 		fRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */;
 		name = "PreferencesController.py: 26";
 		rLen = 0;
-		rLoc = 563;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 376;
 		vrLoc = 437;
@@ -226,7 +226,7 @@
 		fRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */;
 		name = "PreferencesController.py: 26";
 		rLen = 0;
-		rLoc = 563;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 462;
 		vrLoc = 384;
@@ -236,7 +236,7 @@
 		fRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */;
 		name = "PreferencesController.py: 43";
 		rLen = 0;
-		rLoc = 1628;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 382;
 		vrLoc = 755;
@@ -246,7 +246,7 @@
 		fRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */;
 		name = "PreferencesController.py: 31";
 		rLen = 0;
-		rLoc = 756;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 411;
 		vrLoc = 437;
@@ -256,7 +256,7 @@
 		fRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */;
 		name = "PreferencesController.py: 34";
 		rLen = 0;
-		rLoc = 866;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 417;
 		vrLoc = 595;
@@ -266,7 +266,7 @@
 		fRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */;
 		name = "PreferencesController.py: 49";
 		rLen = 0;
-		rLoc = 1433;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 532;
 		vrLoc = 976;
@@ -276,7 +276,7 @@
 		fRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */;
 		name = "PreferencesController.py: 31";
 		rLen = 0;
-		rLoc = 754;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 1260;
 		vrLoc = 493;
@@ -286,7 +286,7 @@
 		fRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */;
 		name = "PreferencesController.py: 34";
 		rLen = 0;
-		rLoc = 829;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 620;
 		vrLoc = 576;
@@ -296,7 +296,7 @@
 		fRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */;
 		name = "PreferencesController.py: 28";
 		rLen = 0;
-		rLoc = 1488;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 546;
 		vrLoc = 161;
@@ -306,7 +306,7 @@
 		fRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */;
 		name = "PreferencesController.py: 28";
 		rLen = 0;
-		rLoc = 1488;
+		rLoc = 235;
 		rType = 0;
 		vrLen = 578;
 		vrLoc = 235;
@@ -357,30 +357,30 @@
 	};
 	4ED017FC1347BC420003ACF3 /* MNPPController.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1012, 2132}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{1350, 557}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 2132}}";
+			sepNavSelRange = "{3456, 0}";
+			sepNavVisRange = "{3218, 856}";
 		};
 	};
 	4ED0180C1347C1620003ACF3 /* PreferencesController.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 1677}}";
-			sepNavSelRange = "{829, 0}";
-			sepNavVisRange = "{360, 1129}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1755}}";
+			sepNavSelRange = "{1786, 0}";
+			sepNavVisRange = "{0, 996}";
 		};
 	};
 	77631A3E0C0748CF005415CB /* main.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {998, 346}}";
-			sepNavSelRange = "{251, 1}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 455}}";
+			sepNavSelRange = "{410, 0}";
 			sepNavVisRange = "{0, 515}";
 		};
 	};
 	7790198E0C07548A00326F66 /* MNPPAppDelegate.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1010, 247}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 455}}";
 			sepNavSelRange = "{368, 0}";
-			sepNavVisRange = "{2, 512}";
+			sepNavVisRange = "{0, 514}";
 			sepNavWindowFrame = "{{15, 184}, {1122, 589}}";
 		};
 	};
