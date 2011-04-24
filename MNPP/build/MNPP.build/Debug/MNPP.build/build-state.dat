@@ -1,7 +1,7 @@
 TMNPP
 v7
 r0
-t325290863.402793
+t325317902.646391
 cCheck dependencies
 cProcessInfoPlistFile /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Info.plist Info.plist
 cCopyStringsFile /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -15,6 +15,7 @@ cCpResource build/Debug/MNPP.app/Contents/Resources/php.png ../../../../Download
 cCompileXIB /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/General.xib
 cCompileXIB /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/Php.xib
 cCpResource build/Debug/MNPP.app/Contents/Resources/GeneralViewController.py GeneralViewController.py
+cCpResource build/Debug/MNPP.app/Contents/Resources/PhpViewController.py PhpViewController.py
 cProcessPCH /var/folders/vV/vVYXG0EWGXKFSdVsptlB+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MNPP_Prefix-dcecttcrhvskeiavyjyvokczqzfe/MNPP_Prefix.pch.gch MNPP_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cProcessPCH /var/folders/vV/vVYXG0EWGXKFSdVsptlB+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MNPP_Prefix-dvbqmfslefuvuvfccfthwnpuusze/MNPP_Prefix.pch.gch MNPP_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cProcessPCH /var/folders/vV/vVYXG0EWGXKFSdVsptlB+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MNPP_Prefix-evflufvcjwizftayvgdeusojdxxj/MNPP_Prefix.pch.gch MNPP_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
@@ -73,9 +74,9 @@ t1303596447
 s60000
 
 N/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/GeneralViewController.py
-c000000004DB34ACD0000000000000579
-t1303595725
-s1401
+c000000004DB3743E0000000000000598
+t1303606334
+s1432
 
 N/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/MNPPAppDelegate.py
 c000000004D9841E30000000000000202
@@ -94,9 +95,14 @@ s139
 i<Cocoa/Cocoa.h>
 
 N/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/Php.xib
-c000000004DB090C4000000000000AB86
-t1303417028
-s43910
+c000000004DB3BBD40000000000009FBE
+t1303624660
+s40894
+
+N/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/PhpViewController.py
+c000000004DB3BC5F00000000000002EB
+t1303624799
+s747
 
 N/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/Preferences.xib
 c000000004DB27862000000000000D577
@@ -104,12 +110,12 @@ t1303541858
 s54647
 
 N/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/PreferencesController.py
-c000000004DB353A00000000000000ABC
-t1303597984
-s2748
+c000000004DB3BD550000000000000C15
+t1303625045
+s3093
 
 N/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app
-t1303598063
+t1303625102
 s102
 
 N/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Info.plist
@@ -137,8 +143,8 @@ t1303596450
 s8697
 
 N/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/GeneralViewController.py
-t1303595822
-s1401
+t1303606339
+s1432
 
 N/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/MNPPAppDelegate.py
 t1301823971
@@ -149,20 +155,24 @@ t1303595148
 s4074
 
 N/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/Php.nib
-t1303417253
-s11075
+t1303624663
+s6709
+
+N/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/PhpViewController.py
+t1303624806
+s747
 
 N/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/Preferences.nib
 t1303541875
 s8826
 
 N/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/PreferencesController.py
-t1303598063
-s2748
+t1303625102
+s3093
 
 N/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/main.py
-t1303584840
-s544
+t1303599596
+s569
 
 N/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/php.png
 t1303358278
@@ -215,9 +225,9 @@ i<Python/Python.h>
 i<Cocoa/Cocoa.h>
 
 N/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/main.py
-c000000004DB320450000000000000220
-t1303584837
-s544
+c000000004DB359AD0000000000000239
+t1303599533
+s569
 
 N/var/folders/vV/vVYXG0EWGXKFSdVsptlB+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MNPP_Prefix-dcecttcrhvskeiavyjyvokczqzfe/MNPP_Prefix.pch.gch
 t1301875695
@@ -238,7 +248,7 @@ s916
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies325290863#325290863#0(0"0(0#1#0"8625527328#0"0#
+lSLF07#2@18"Check dependencies325317902#325317902#0(0"0(0#1#0"8628439744#0"0#
 
 CCompileC build/MNPP.build/Debug/MNPP.build/Objects-normal/i386/main.o /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s323568498.965870
@@ -298,12 +308,12 @@ x/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/General.xib
 lSLF07#2@22"CompileXIB General.xib325289250#325289250#0(0"0(0#0#57"/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/General.xib8620538880#352"    cd /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/General.nib /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/General.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
 
 CCompileXIB /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/Php.xib
-s325110053.449534
-e325110053.659435
+s325317463.058021
+e325317463.276031
 r1
 xCompileXIB
 x/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/Php.xib
-lSLF07#2@18"CompileXIB Php.xib325110053#325110053#0(0"0(0#0#53"/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/Php.xib8617318944#344"    cd /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/Php.nib /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/Php.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
+lSLF07#2@18"CompileXIB Php.xib325317463#325317463#0(0"0(0#0#53"/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/Php.xib8624630464#344"    cd /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/Php.nib /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/Php.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
 
 CCompileXIB /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/Preferences.xib
 s325234674.547697
@@ -323,13 +333,13 @@ xEnglish.lproj/InfoPlist.strings
 lSLF07#2@36"Copy English.lproj/InfoPlist.strings323469244#323469246#0(0"0(0#0#77"/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/English.lproj/InfoPlist.strings8610540864#377"    cd /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/English.lproj0#
 
 CCpResource build/Debug/MNPP.app/Contents/Resources/GeneralViewController.py GeneralViewController.py
-s325288622.453785
-e325288622.460717
+s325299139.260237
+e325299139.268122
 r1
 xCpResource
 xbuild/Debug/MNPP.app/Contents/Resources/GeneralViewController.py
 xGeneralViewController.py
-lSLF07#2@29"Copy GeneralViewController.py325288622#325288622#0(0"0(0#0#70"/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/GeneralViewController.py8621252800#372"    cd /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/GeneralViewController.py /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources0#
+lSLF07#2@29"Copy GeneralViewController.py325299139#325299139#0(0"0(0#0#70"/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/GeneralViewController.py8626759424#372"    cd /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/GeneralViewController.py /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources0#
 
 CCpResource build/Debug/MNPP.app/Contents/Resources/MNPPAppDelegate.py MNPPAppDelegate.py
 s323470532.504419
@@ -349,23 +359,32 @@ xbuild/Debug/MNPP.app/Contents/Resources/MNPPController.py
 xMNPPController.py
 lSLF07#2@22"Copy MNPPController.py325287948#325287948#0(0"0(0#0#63"/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/MNPPController.py8618824224#365"    cd /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/MNPPController.py /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources0#
 
+CCpResource build/Debug/MNPP.app/Contents/Resources/PhpViewController.py PhpViewController.py
+s325317606.625327
+e325317606.636394
+r1
+xCpResource
+xbuild/Debug/MNPP.app/Contents/Resources/PhpViewController.py
+xPhpViewController.py
+lSLF07#2@25"Copy PhpViewController.py325317606#325317606#0(0"0(0#0#66"/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/PhpViewController.py8628274944#368"    cd /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/PhpViewController.py /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources0#
+
 CCpResource build/Debug/MNPP.app/Contents/Resources/PreferencesController.py PreferencesController.py
-s325290863.389236
-e325290863.395661
+s325317902.635695
+e325317902.642436
 r1
 xCpResource
 xbuild/Debug/MNPP.app/Contents/Resources/PreferencesController.py
 xPreferencesController.py
-lSLF07#2@29"Copy PreferencesController.py325290863#325290863#0(0"0(0#0#70"/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/PreferencesController.py8603144288#372"    cd /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/PreferencesController.py /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources0#
+lSLF07#2@29"Copy PreferencesController.py325317902#325317902#0(0"0(0#0#70"/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/PreferencesController.py8623943360#372"    cd /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/PreferencesController.py /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources0#
 
 CCpResource build/Debug/MNPP.app/Contents/Resources/main.py main.py
-s325277640.749568
-e325277640.865363
+s325292396.718791
+e325292396.728089
 r1
 xCpResource
 xbuild/Debug/MNPP.app/Contents/Resources/main.py
 xmain.py
-lSLF07#2@12"Copy main.py325277640#325277640#0(0"0(0#0#53"/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/main.py8618483488#355"    cd /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/main.py /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources0#
+lSLF07#2@12"Copy main.py325292396#325292396#0(0"0(0#0#53"/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/main.py8624369440#355"    cd /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/main.py /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources0#
 
 CCpResource build/Debug/MNPP.app/Contents/Resources/php.png ../../../../Downloads/php.png
 s325051078.082706
@@ -475,10 +494,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@26"Precompile MNPP_Prefix.pch323568495#323568498#0(0"0(0#0#61"/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/MNPP_Prefix.pch8601026464#1004"    cd /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/MNPP.build/Debug/MNPP.build/MNPP.hmap -F/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug -I/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/include -I/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/MNPP.build/Debug/MNPP.build/DerivedSources/ppc -I/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/MNPP.build/Debug/MNPP.build/DerivedSources -c /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/MNPP_Prefix.pch -o /var/folders/vV/vVYXG0EWGXKFSdVsptlB+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MNPP_Prefix-evflufvcjwizftayvgdeusojdxxj/MNPP_Prefix.pch.gch0#
 
 CTouch /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app
-s325290863.396447
-e325290863.402734
+s325317902.643324
+e325317902.646348
 r1
 xTouch
 x/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app
-lSLF07#2@72"Touch /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app325290863#325290863#0(0"0(0#0#0"8628571968#142"    cd /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP    /usr/bin/touch -c /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app0#
+lSLF07#2@72"Touch /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app325317902#325317902#0(0"0(0#0#0"8629542368#142"    cd /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP    /usr/bin/touch -c /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app0#
 

@@ -19,6 +19,7 @@ from PyObjCTools import AppHelper
 import MNPPController
 import PreferencesController
 import GeneralViewController
+import PhpViewController
 import MNPPAppDelegate
 
 # pass control to AppKit
