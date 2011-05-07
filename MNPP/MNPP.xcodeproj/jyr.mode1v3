@@ -310,8 +310,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -329,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>4E9BB654136697FC00BEF380</string>
+										<string>4E64E4DC1373C6FB002D0059</string>
 										<key>history</key>
 										<array>
 											<string>4EDD35271363F9880053CCA2</string>
@@ -337,7 +335,7 @@
 											<string>4E3BB99D13654692000DEF6A</string>
 											<string>4E3BB99E13654692000DEF6A</string>
 											<string>4E3BB99F13654692000DEF6A</string>
-											<string>4E3BB9A113654692000DEF6A</string>
+											<string>4E9BB6601366A17300BEF380</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -349,16 +347,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 560}}</string>
+								<string>{{0, 0}, {1072, 555}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 98 1280 680 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>560pt</string>
+							<string>555pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -369,14 +369,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 565}, {1072, 74}}</string>
+								<string>{{0, 560}, {1072, 79}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 98 1280 680 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>74pt</string>
+							<string>79pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -395,9 +395,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>4E9BB5FF1366747D00BEF380</string>
+				<string>4E64E4D91373AF07002D0059</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>4E9BB6001366747D00BEF380</string>
+				<string>4E64E4DA1373AF07002D0059</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -535,11 +535,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>4E9BB60F136674DE00BEF380</string>
-		<string>4E9BB610136674DE00BEF380</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>4ED017E71347B6780003ACF3</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/MNPP.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -620,7 +616,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>4ED017E71347B6780003ACF3</string>
-				<string>4E9BB6011366747D00BEF380</string>
+				<string>4E64E4DB1373AF07002D0059</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

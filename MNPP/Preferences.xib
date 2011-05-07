@@ -248,7 +248,7 @@
 													<object class="NSButtonCell" key="NSCell" id="14578539">
 														<int key="NSCellFlags">67239424</int>
 														<int key="NSCellFlags2">0</int>
-														<string key="NSContents">Open MNMP page at run MNPP</string>
+														<string key="NSContents">Open MNPP page at run MNPP</string>
 														<reference key="NSSupport" ref="950165632"/>
 														<reference key="NSControlView" ref="627482548"/>
 														<int key="NSButtonFlags">1211912703</int>
@@ -622,11 +622,9 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>general:</string>
 							<string>php:</string>
-							<string>savePreferences:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 						</object>
@@ -637,7 +635,6 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>general:</string>
 							<string>php:</string>
-							<string>savePreferences:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -649,77 +646,17 @@
 								<string key="name">php:</string>
 								<string key="candidateClassName">id</string>
 							</object>
-							<object class="IBActionInfo">
-								<string key="name">savePreferences:</string>
-								<string key="candidateClassName">id</string>
-							</object>
 						</object>
 					</object>
 					<object class="NSMutableDictionary" key="outlets">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<object class="NSArray" key="dict.sortedKeys">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>mysqlPort</string>
-							<string>nginxPort</string>
-							<string>open</string>
-							<string>phpPort</string>
-							<string>preferencesView</string>
-							<string>start</string>
-							<string>stop</string>
-						</object>
-						<object class="NSMutableArray" key="dict.values">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-						</object>
+						<string key="NS.key.0">preferencesView</string>
+						<string key="NS.object.0">id</string>
 					</object>
 					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<object class="NSArray" key="dict.sortedKeys">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>mysqlPort</string>
-							<string>nginxPort</string>
-							<string>open</string>
-							<string>phpPort</string>
-							<string>preferencesView</string>
-							<string>start</string>
-							<string>stop</string>
-						</object>
-						<object class="NSMutableArray" key="dict.values">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<object class="IBToOneOutletInfo">
-								<string key="name">mysqlPort</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">nginxPort</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">open</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">phpPort</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">preferencesView</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">start</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">stop</string>
-								<string key="candidateClassName">id</string>
-							</object>
+						<string key="NS.key.0">preferencesView</string>
+						<object class="IBToOneOutletInfo" key="NS.object.0">
+							<string key="name">preferencesView</string>
+							<string key="candidateClassName">id</string>
 						</object>
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
