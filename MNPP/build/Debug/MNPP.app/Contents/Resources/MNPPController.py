@@ -123,7 +123,7 @@ class MNPPController (NSWindowController):
 		try:
 			self.checkPhpVersion()
 			startPHP = self.path + "startPHP" + self.phpVersion
-			print startPHP
+
 			self.auth.executeWithPrivileges(startPHP)
 			self.startPHP.setHidden_(YES)
 			self.stopPHP.setHidden_(NO)
@@ -134,7 +134,7 @@ class MNPPController (NSWindowController):
     def stopPHP_(self, sender):
 		try:
 			stopPHP = self.path + "stopPHP" + self.phpVersion
-			print stopPHP
+
 			self.auth.executeWithPrivileges(stopPHP)
 			self.startPHP.setHidden_(NO)
 			self.stopPHP.setHidden_(YES)
