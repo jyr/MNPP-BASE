@@ -12,9 +12,9 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="510"/>
-			<integer value="449"/>
 			<integer value="57"/>
+			<integer value="504"/>
+			<integer value="449"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1489,6 +1489,7 @@
 								</object>
 								<object class="NSMenuItem" id="284543855">
 									<reference key="NSMenu" ref="244919820"/>
+									<bool key="NSIsHidden">YES</bool>
 									<string key="NSTitle">Stop services</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1534,6 +1535,15 @@
 						<reference key="NSOnImage" ref="715147791"/>
 						<reference key="NSMixedImage" ref="897496305"/>
 					</object>
+					<object class="NSMenuItem" id="430936000">
+						<reference key="NSMenu" ref="586240883"/>
+						<bool key="NSIsHidden">YES</bool>
+						<string key="NSTitle">Stop nginx</string>
+						<string key="NSKeyEquiv"/>
+						<int key="NSMnemonicLoc">2147483647</int>
+						<reference key="NSOnImage" ref="715147791"/>
+						<reference key="NSMixedImage" ref="897496305"/>
+					</object>
 					<object class="NSMenuItem" id="978249135">
 						<reference key="NSMenu" ref="586240883"/>
 						<string key="NSTitle">Start percona</string>
@@ -1542,36 +1552,31 @@
 						<reference key="NSOnImage" ref="715147791"/>
 						<reference key="NSMixedImage" ref="897496305"/>
 					</object>
-					<object class="NSMenuItem" id="76784360">
+					<object class="NSMenuItem" id="831468834">
 						<reference key="NSMenu" ref="586240883"/>
-						<string key="NSTitle">PHP</string>
+						<bool key="NSIsHidden">YES</bool>
+						<string key="NSTitle">Stop percona</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="715147791"/>
 						<reference key="NSMixedImage" ref="897496305"/>
-						<string key="NSAction">submenuAction:</string>
-						<object class="NSMenu" key="NSSubmenu" id="1063284190">
-							<string key="NSTitle">PHP</string>
-							<object class="NSMutableArray" key="NSMenuItems">
-								<bool key="EncodedWithXMLCoder">YES</bool>
-								<object class="NSMenuItem" id="988065231">
-									<reference key="NSMenu" ref="1063284190"/>
-									<string key="NSTitle">Start 5.2</string>
-									<string key="NSKeyEquiv"/>
-									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="715147791"/>
-									<reference key="NSMixedImage" ref="897496305"/>
-								</object>
-								<object class="NSMenuItem" id="673424671">
-									<reference key="NSMenu" ref="1063284190"/>
-									<string key="NSTitle">Start 5.3</string>
-									<string key="NSKeyEquiv"/>
-									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="715147791"/>
-									<reference key="NSMixedImage" ref="897496305"/>
-								</object>
-							</object>
-						</object>
+					</object>
+					<object class="NSMenuItem" id="76784360">
+						<reference key="NSMenu" ref="586240883"/>
+						<string key="NSTitle">Start PHP</string>
+						<string key="NSKeyEquiv"/>
+						<int key="NSMnemonicLoc">2147483647</int>
+						<reference key="NSOnImage" ref="715147791"/>
+						<reference key="NSMixedImage" ref="897496305"/>
+					</object>
+					<object class="NSMenuItem" id="1070325415">
+						<reference key="NSMenu" ref="586240883"/>
+						<bool key="NSIsHidden">YES</bool>
+						<string key="NSTitle">Stop PHP</string>
+						<string key="NSKeyEquiv"/>
+						<int key="NSMnemonicLoc">2147483647</int>
+						<reference key="NSOnImage" ref="715147791"/>
+						<reference key="NSMixedImage" ref="897496305"/>
 					</object>
 					<object class="NSMenuItem" id="1011996582">
 						<reference key="NSMenu" ref="586240883"/>
@@ -2308,6 +2313,118 @@
 						<reference key="destination" ref="291850995"/>
 					</object>
 					<int key="connectionID">535</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">startPHP:</string>
+						<reference key="source" ref="610635028"/>
+						<reference key="destination" ref="76784360"/>
+					</object>
+					<int key="connectionID">536</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">exit:</string>
+						<reference key="source" ref="610635028"/>
+						<reference key="destination" ref="964383182"/>
+					</object>
+					<int key="connectionID">537</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">startNginx</string>
+						<reference key="source" ref="610635028"/>
+						<reference key="destination" ref="570170789"/>
+					</object>
+					<int key="connectionID">538</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">stopNginx</string>
+						<reference key="source" ref="610635028"/>
+						<reference key="destination" ref="430936000"/>
+					</object>
+					<int key="connectionID">540</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">stopMySQL</string>
+						<reference key="source" ref="610635028"/>
+						<reference key="destination" ref="831468834"/>
+					</object>
+					<int key="connectionID">543</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">stopPHP</string>
+						<reference key="source" ref="610635028"/>
+						<reference key="destination" ref="1070325415"/>
+					</object>
+					<int key="connectionID">544</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">startMySQL</string>
+						<reference key="source" ref="610635028"/>
+						<reference key="destination" ref="978249135"/>
+					</object>
+					<int key="connectionID">545</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">startPHP</string>
+						<reference key="source" ref="610635028"/>
+						<reference key="destination" ref="76784360"/>
+					</object>
+					<int key="connectionID">546</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">stopMySQL:</string>
+						<reference key="source" ref="610635028"/>
+						<reference key="destination" ref="831468834"/>
+					</object>
+					<int key="connectionID">547</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">stopNginx:</string>
+						<reference key="source" ref="610635028"/>
+						<reference key="destination" ref="430936000"/>
+					</object>
+					<int key="connectionID">548</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">stopPHP:</string>
+						<reference key="source" ref="610635028"/>
+						<reference key="destination" ref="1070325415"/>
+					</object>
+					<int key="connectionID">549</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">stopServers:</string>
+						<reference key="source" ref="610635028"/>
+						<reference key="destination" ref="284543855"/>
+					</object>
+					<int key="connectionID">550</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">stopButton</string>
+						<reference key="source" ref="610635028"/>
+						<reference key="destination" ref="284543855"/>
+					</object>
+					<int key="connectionID">551</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">startButton</string>
+						<reference key="source" ref="610635028"/>
+						<reference key="destination" ref="291850995"/>
+					</object>
+					<int key="connectionID">552</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -3457,6 +3574,9 @@
 							<reference ref="978249135"/>
 							<reference ref="76784360"/>
 							<reference ref="1011996582"/>
+							<reference ref="430936000"/>
+							<reference ref="831468834"/>
+							<reference ref="1070325415"/>
 						</object>
 						<reference key="parent" ref="1049"/>
 					</object>
@@ -3524,33 +3644,27 @@
 						<reference key="object" ref="76784360"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="1063284190"/>
 						</object>
 						<reference key="parent" ref="586240883"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">519</int>
-						<reference key="object" ref="1063284190"/>
-						<object class="NSMutableArray" key="children">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="988065231"/>
-							<reference ref="673424671"/>
-						</object>
-						<reference key="parent" ref="76784360"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">520</int>
-						<reference key="object" ref="988065231"/>
-						<reference key="parent" ref="1063284190"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">521</int>
-						<reference key="object" ref="673424671"/>
-						<reference key="parent" ref="1063284190"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">522</int>
 						<reference key="object" ref="1011996582"/>
+						<reference key="parent" ref="586240883"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">539</int>
+						<reference key="object" ref="430936000"/>
+						<reference key="parent" ref="586240883"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">541</int>
+						<reference key="object" ref="831468834"/>
+						<reference key="parent" ref="586240883"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">542</int>
+						<reference key="object" ref="1070325415"/>
 						<reference key="parent" ref="586240883"/>
 					</object>
 				</object>
@@ -3799,11 +3913,10 @@
 					<string>515.IBPluginDependency</string>
 					<string>516.IBPluginDependency</string>
 					<string>518.IBPluginDependency</string>
-					<string>519.IBEditorWindowLastContentRect</string>
-					<string>519.IBPluginDependency</string>
-					<string>520.IBPluginDependency</string>
-					<string>521.IBPluginDependency</string>
 					<string>522.IBPluginDependency</string>
+					<string>539.IBPluginDependency</string>
+					<string>541.IBPluginDependency</string>
+					<string>542.IBPluginDependency</string>
 					<string>56.IBPluginDependency</string>
 					<string>56.ImportedFromIB2</string>
 					<string>57.IBEditorWindowLastContentRect</string>
@@ -4095,13 +4208,13 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{344, 464}, {144, 153}}</string>
+					<string>{{389, 106}, {144, 213}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{488, 574}, {142, 43}}</string>
+					<string>{{533, 276}, {142, 43}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -4109,7 +4222,6 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{471, 395}, {110, 43}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -4165,7 +4277,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">535</int>
+			<int key="maxID">556</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -4177,15 +4289,23 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>exit:</string>
 							<string>showPreferencesWindow:</string>
 							<string>startMySQL:</string>
 							<string>startNginx:</string>
 							<string>startPHP:</string>
 							<string>startServers:</string>
+							<string>stopMySQL:</string>
+							<string>stopNginx:</string>
+							<string>stopPHP:</string>
 							<string>stopServers:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -4198,15 +4318,23 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>exit:</string>
 							<string>showPreferencesWindow:</string>
 							<string>startMySQL:</string>
 							<string>startNginx:</string>
 							<string>startPHP:</string>
 							<string>startServers:</string>
+							<string>stopMySQL:</string>
+							<string>stopNginx:</string>
+							<string>stopPHP:</string>
 							<string>stopServers:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBActionInfo">
+								<string key="name">exit:</string>
+								<string key="candidateClassName">id</string>
+							</object>
 							<object class="IBActionInfo">
 								<string key="name">showPreferencesWindow:</string>
 								<string key="candidateClassName">id</string>
@@ -4228,20 +4356,116 @@
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
+								<string key="name">stopMySQL:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">stopNginx:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">stopPHP:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
 								<string key="name">stopServers:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 						</object>
 					</object>
 					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">statusMenu</string>
-						<string key="NS.object.0">id</string>
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>preferences</string>
+							<string>startButton</string>
+							<string>startMySQL</string>
+							<string>startNginx</string>
+							<string>startPHP</string>
+							<string>statusMenu</string>
+							<string>step</string>
+							<string>stopButton</string>
+							<string>stopMySQL</string>
+							<string>stopNginx</string>
+							<string>stopPHP</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+						</object>
 					</object>
 					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">statusMenu</string>
-						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">statusMenu</string>
-							<string key="candidateClassName">id</string>
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>preferences</string>
+							<string>startButton</string>
+							<string>startMySQL</string>
+							<string>startNginx</string>
+							<string>startPHP</string>
+							<string>statusMenu</string>
+							<string>step</string>
+							<string>stopButton</string>
+							<string>stopMySQL</string>
+							<string>stopNginx</string>
+							<string>stopPHP</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBToOneOutletInfo">
+								<string key="name">preferences</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">startButton</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">startMySQL</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">startNginx</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">startPHP</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">statusMenu</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">step</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">stopButton</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">stopMySQL</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">stopNginx</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">stopPHP</string>
+								<string key="candidateClassName">id</string>
+							</object>
 						</object>
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
@@ -4363,6 +4587,7 @@
 							<string>startMySQL</string>
 							<string>startNginx</string>
 							<string>startPHP</string>
+							<string>statusMenu</string>
 							<string>stopButton</string>
 							<string>stopMySQL</string>
 							<string>stopNginx</string>
@@ -4371,6 +4596,7 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -4392,6 +4618,7 @@
 							<string>startMySQL</string>
 							<string>startNginx</string>
 							<string>startPHP</string>
+							<string>statusMenu</string>
 							<string>stopButton</string>
 							<string>stopMySQL</string>
 							<string>stopNginx</string>
@@ -4418,6 +4645,10 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">startPHP</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">statusMenu</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBToOneOutletInfo">
