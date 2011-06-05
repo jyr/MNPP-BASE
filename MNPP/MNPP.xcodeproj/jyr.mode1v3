@@ -282,7 +282,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 314}}</string>
+							<string>{{0, 0}, {186, 621}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -294,14 +294,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 332}}</string>
+						<string>{{0, 0}, {203, 639}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>3 405 1277 373 0 0 1280 778 </string>
+						<string>0 98 1280 680 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -329,15 +329,15 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>4EAC5EAD139B27310077D20E</string>
+										<string>4EAC5ECD139B2E0F0077D20E</string>
 										<key>history</key>
 										<array>
 											<string>4EDD35281363F9880053CCA2</string>
 											<string>4E3BB99D13654692000DEF6A</string>
 											<string>4E3BB99E13654692000DEF6A</string>
 											<string>4EAC5E2C139B10190077D20E</string>
-											<string>4EAC5EAB139B27310077D20E</string>
-											<string>4EAC5EAC139B27310077D20E</string>
+											<string>4EAC5ECB139B2E0F0077D20E</string>
+											<string>4EAC5ECC139B2E0F0077D20E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -349,14 +349,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1069, 235}}</string>
+								<string>{{0, 0}, {1072, 542}}</string>
 								<key>RubberWindowFrame</key>
-								<string>3 405 1277 373 0 0 1280 778 </string>
+								<string>0 98 1280 680 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>235pt</string>
+							<string>542pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -369,9 +369,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 240}, {1069, 92}}</string>
+								<string>{{0, 547}, {1072, 92}}</string>
 								<key>RubberWindowFrame</key>
-								<string>3 405 1277 373 0 0 1280 778 </string>
+								<string>0 98 1280 680 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -380,7 +380,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1069pt</string>
+					<string>1072pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -543,7 +543,7 @@
 		<string>/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/MNPP.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>3 405 1277 373 0 0 1280 778 </string>
+	<string>0 98 1280 680 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

@@ -1,5 +1,5 @@
 f4ea047a7ee9940f8d9a386f956e2e27 a5889139187f00d04ecb3bfe8d415973 ffffffffffffffffffffffffffffffff 102 /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app
-00000000000000000000000000000000 7405448d22f33d1b403c7d682331e775 ffffffffffffffffffffffffffffffff 6151 /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/MNPPController.py
+00000000000000000000000000000000 7405448d22f33d1b403c7d682331e775 ffffffffffffffffffffffffffffffff 6800 /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/MNPPController.py
 4db6cdfbe6c6d5423de2c82e947b501a 1525e7786354308a9f790aaa2f7f0884 ffffffffffffffffffffffffffffffff 11600 /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/MNPP.build/Debug/MNPP.build/Objects-normal/ppc/main.o
 84401bab068416dc02598b0f0ea5858c 9f036ed5c16022b4d107f66a7b6a49ab ffffffffffffffffffffffffffffffff 10808 /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/MNPP.build/Debug/MNPP.build/Objects-normal/i386/main.o
 19ecaa84c08ba0208d1ce6db4890e2d9 a59a77c267dd0ff4faf999d476a1f090 ffffffffffffffffffffffffffffffff 13132 /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/MNPP.build/Debug/MNPP.build/Objects-normal/x86_64/main.o
@@ -18,7 +18,7 @@ bc76dd46ec0ebbe677e57f0f3e0fc037 a6948253b6e6361ecc46b9d1f9223463 ffffffffffffff
 00000000000000000000000000000000 759982181c2aa687468f07c410739f04 ffffffffffffffffffffffffffffffff 3133 /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/PreferencesController.py
 000000004dc57ff4000000000000cca3 078fc629bae331be311d50c433db4d56 ffffffffffffffffffffffffffffffff 8826 /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/Preferences.nib
 000000004deaae420000000000037ec8 cad702f5fa712722b16bef705e126a06 ffffffffffffffffffffffffffffffff 40684 /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/English.lproj/MainMenu.nib
-00000000000000000000000000000000 e7aeb0f165c7db9452ca56d26c37b5d6 ffffffffffffffffffffffffffffffff 3588 /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/MNPPAppDelegate.py
+00000000000000000000000000000000 e7aeb0f165c7db9452ca56d26c37b5d6 ffffffffffffffffffffffffffffffff 3466 /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/MNPPAppDelegate.py
 00000000000000000000000000000000 ba80ea3c73dba82cc474722309753562 ffffffffffffffffffffffffffffffff 569 /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/main.py
 000000004d977ee300000000000000ca b622b90be13d61b0c9e4acc6fad83cd7 ffffffffffffffffffffffffffffffff 202 /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/Resources/English.lproj/InfoPlist.strings
 00000000000000000000000000000000 ce460f0dd7c13419484d389f584113cf ffffffffffffffffffffffffffffffff 8 /Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/build/Debug/MNPP.app/Contents/PkgInfo

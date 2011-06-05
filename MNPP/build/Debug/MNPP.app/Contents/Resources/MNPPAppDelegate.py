@@ -26,7 +26,7 @@ class MNPPAppDelegate(NSObject):
 	
     def applicationDidFinishLaunching_(self, sender):
         NSLog("Application did finish launching.")
-        #print dir(self.statusMenu)
+
         print self.statusMenu.indexOfItemWithTitle_("Start nginx")
         self.mnppController = MNPPController.alloc().init()
         self.mnppController.showWindow_(self)
@@ -117,8 +117,6 @@ class MNPPAppDelegate(NSObject):
 		self.stopButton.setHidden_(NO)
 		print "start menuall"
 	
-    #changeStatusStartMenuALL = property(changeStatusStartMenuALL, None, None, "aca")
-
     def changeStatusStopMenuALL(self):
 		self.startButton.setHidden_(NO)
 		self.stopButton.setHidden_(YES)

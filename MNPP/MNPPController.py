@@ -54,6 +54,13 @@ class MNPPController (NSWindowController):
 			self.stopPHP.setHidden_(NO)
 			
 			self.appDelegate.changeStatusStartMenuALL()
+			
+			self.appDelegate.startNginx.setHidden_(YES)
+			self.appDelegate.stopNginx.setHidden_(NO)
+			self.appDelegate.startMySQL.setHidden_(YES)
+			self.appDelegate.stopMySQL.setHidden_(NO)
+			self.appDelegate.startPHP.setHidden_(YES)
+			self.appDelegate.stopPHP.setHidden_(NO)
 
 		except:
 			pass
@@ -65,8 +72,8 @@ class MNPPController (NSWindowController):
 			stopScript = self.path + "stop" + self.phpVersion
 			
 			self.auth.executeWithPrivileges(stopScript)
-			self.changeStatusStopButtonALL()
-			
+
+			self.changeStatusStopButtonALL()			
 			self.startNginx.setHidden_(NO)
 			self.stopNginx.setHidden_(YES)
 			self.startMySQL.setHidden_(NO)
@@ -75,6 +82,12 @@ class MNPPController (NSWindowController):
 			self.stopPHP.setHidden_(YES)
 
 			self.appDelegate.changeStatusStopMenuALL()
+			self.appDelegate.stopNginx.setHidden_(YES)
+			self.appDelegate.startNginx.setHidden_(NO)
+			self.appDelegate.stopMySQL.setHidden_(YES)
+			self.appDelegate.startMySQL.setHidden_(NO)	
+			self.appDelegate.stopPHP.setHidden_(YES)
+			self.appDelegate.startPHP.setHidden_(NO)	
 			
 		except:
 			pass
@@ -97,7 +110,9 @@ class MNPPController (NSWindowController):
 			Menu status bar options
 			"""
 			self.appDelegate.changeStatusStartMenuALL()
-			self.appDelegate.startNginx_(self)
+			#self.appDelegate.startNginx_(self)
+			self.appDelegate.startNginx.setHidden_(YES)
+			self.appDelegate.stopNginx.setHidden_(NO)
 			
 		except:
 			pass
@@ -115,7 +130,9 @@ class MNPPController (NSWindowController):
 			Menu status bar options
 			"""
 			self.appDelegate.changeStatusStopMenuALL()
-			self.appDelegate.stopNginx_(self)
+			#self.appDelegate.stopNginx_(self)
+			self.appDelegate.stopNginx.setHidden_(YES)
+			self.appDelegate.startNginx.setHidden_(NO)
 
 		except:
 			pass
@@ -133,7 +150,9 @@ class MNPPController (NSWindowController):
 			Menu options
 			"""
 			self.appDelegate.changeStatusStartMenuALL()
-			self.appDelegate.startMySQL_(self)
+			self.appDelegate.startMySQL.setHidden_(YES)
+			self.appDelegate.stopMySQL.setHidden_(NO)
+
 
 		except:
 			pass
@@ -151,8 +170,8 @@ class MNPPController (NSWindowController):
 			Menu options
 			"""
 			self.appDelegate.changeStatusStopMenuALL()
-			self.appDelegate.stopMySQL_(self)
-			
+			self.appDelegate.stopMySQL.setHidden_(YES)
+			self.appDelegate.startMySQL.setHidden_(NO)			
 		except:
 			pass
 
@@ -172,7 +191,9 @@ class MNPPController (NSWindowController):
 			Menu options
 			"""
 			self.appDelegate.changeStatusStartMenuALL()
-			self.appDelegate.startPHP_(self)
+			self.appDelegate.startPHP.setHidden_(YES)
+			self.appDelegate.stopPHP.setHidden_(NO)
+
 			
 		except:
 			pass
@@ -190,8 +211,8 @@ class MNPPController (NSWindowController):
 			Menu options
 			"""
 			self.appDelegate.changeStatusStopMenuALL()
-			self.appDelegate.stopPHP_(self)
-			
+			self.appDelegate.stopPHP.setHidden_(YES)
+			self.appDelegate.startPHP.setHidden_(NO)			
 		except:
 			pass
 
