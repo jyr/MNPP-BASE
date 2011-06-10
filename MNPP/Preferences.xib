@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="3"/>
+			<integer value="89"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -60,12 +60,35 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>4E0AC2DF-3A4C-4782-BC09-7E945ABE032B</string>
 							<string>659DA8A7-BE0B-48AD-87F5-FAECAD4D9EB0</string>
 							<string>A579E8D7-89BE-4EF0-A270-16510C8AFC4E</string>
 							<string>NSToolbarSeparatorItem</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="NSToolbarItem" id="1006916353">
+								<object class="NSMutableString" key="NSToolbarItemIdentifier">
+									<characters key="NS.bytes">4E0AC2DF-3A4C-4782-BC09-7E945ABE032B</characters>
+								</object>
+								<string key="NSToolbarItemLabel">python</string>
+								<string key="NSToolbarItemPaletteLabel">python</string>
+								<nil key="NSToolbarItemToolTip"/>
+								<nil key="NSToolbarItemView"/>
+								<object class="NSCustomResource" key="NSToolbarItemImage">
+									<string key="NSClassName">NSImage</string>
+									<string key="NSResourceName">python</string>
+								</object>
+								<nil key="NSToolbarItemTarget"/>
+								<nil key="NSToolbarItemAction"/>
+								<string key="NSToolbarItemMinSize">{0, 0}</string>
+								<string key="NSToolbarItemMaxSize">{0, 0}</string>
+								<bool key="NSToolbarItemEnabled">YES</bool>
+								<bool key="NSToolbarItemAutovalidates">YES</bool>
+								<int key="NSToolbarItemTag">-1</int>
+								<bool key="NSToolbarIsUserRemovable">YES</bool>
+								<int key="NSToolbarItemVisibilityPriority">0</int>
+							</object>
 							<object class="NSToolbarItem" id="4323609">
 								<object class="NSMutableString" key="NSToolbarItemIdentifier">
 									<characters key="NS.bytes">659DA8A7-BE0B-48AD-87F5-FAECAD4D9EB0</characters>
@@ -150,12 +173,14 @@
 						<reference ref="4323609"/>
 						<reference ref="491214186"/>
 						<reference ref="902005274"/>
+						<reference ref="1006916353"/>
 					</object>
 					<object class="NSMutableArray" key="NSToolbarIBDefaultItems">
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<reference ref="4323609"/>
 						<reference ref="491214186"/>
 						<reference ref="902005274"/>
+						<reference ref="1006916353"/>
 					</object>
 					<object class="NSMutableArray" key="NSToolbarIBSelectableItems">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -355,6 +380,14 @@
 					</object>
 					<int key="connectionID">135</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">python:</string>
+						<reference key="source" ref="880128916"/>
+						<reference key="destination" ref="1006916353"/>
+					</object>
+					<int key="connectionID">137</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -416,6 +449,7 @@
 							<reference ref="4323609"/>
 							<reference ref="902005274"/>
 							<reference ref="491214186"/>
+							<reference ref="1006916353"/>
 						</object>
 						<reference key="parent" ref="458415611"/>
 					</object>
@@ -496,6 +530,11 @@
 						<reference key="object" ref="14578539"/>
 						<reference key="parent" ref="627482548"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">136</int>
+						<reference key="object" ref="1006916353"/>
+						<reference key="parent" ref="144089935"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -573,9 +612,9 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{482, 413}, {352, 135}}</string>
+					<string>{{572, 233}, {352, 135}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{482, 413}, {352, 135}}</string>
+					<string>{{572, 233}, {352, 135}}</string>
 					<boolean value="YES"/>
 					<boolean value="YES"/>
 					<boolean value="YES"/>
@@ -587,7 +626,7 @@
 					<reference ref="452952026"/>
 					<real value="0.0"/>
 					<real value="0.0"/>
-					<string>{{430, 251}, {616, 0}}</string>
+					<string>{{440, 199}, {616, 169}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<boolean value="YES"/>
 				</object>
@@ -608,7 +647,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">135</int>
+			<int key="maxID">137</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -622,9 +661,11 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>general:</string>
 							<string>php:</string>
+							<string>python:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 						</object>
@@ -635,6 +676,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>general:</string>
 							<string>php:</string>
+							<string>python:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -644,6 +686,10 @@
 							</object>
 							<object class="IBActionInfo">
 								<string key="name">php:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">python:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 						</object>
@@ -1141,6 +1187,7 @@
 				<string>NSPreferencesGeneral</string>
 				<string>NSSwitch</string>
 				<string>php</string>
+				<string>python</string>
 			</object>
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1149,6 +1196,7 @@
 				<string>{32, 32}</string>
 				<string>{15, 15}</string>
 				<string>{48, 48}</string>
+				<string>{102.4, 102.4}</string>
 			</object>
 		</object>
 	</data>

@@ -10,6 +10,9 @@
 		4E89A4D3135FE26E009FDB29 /* php.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E89A4D2135FE26E009FDB29 /* php.png */; };
 		4E89A5AB135FF2FD009FDB29 /* General.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E89A5AA135FF2FD009FDB29 /* General.xib */; };
 		4E89A5B3135FF463009FDB29 /* Php.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E89A5B2135FF463009FDB29 /* Php.xib */; };
+		4E989C4113A16062008F37E2 /* python.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E989C4013A16062008F37E2 /* python.png */; };
+		4E989C4B13A1634E008F37E2 /* Python.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E989C4A13A1634E008F37E2 /* Python.xib */; };
+		4E989C4D13A166C1008F37E2 /* PythonViewController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4E989C4C13A166C1008F37E2 /* PythonViewController.py */; };
 		4ED017FD1347BC420003ACF3 /* MNPPController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4ED017FC1347BC420003ACF3 /* MNPPController.py */; };
 		4ED018081347C1050003ACF3 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED018071347C1050003ACF3 /* Preferences.xib */; };
 		4ED0180D1347C1620003ACF3 /* PreferencesController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */; };
@@ -35,6 +38,9 @@
 		4E89A4D2135FE26E009FDB29 /* php.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = php.png; path = ../../../../Downloads/php.png; sourceTree = SOURCE_ROOT; };
 		4E89A5AA135FF2FD009FDB29 /* General.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = General.xib; sourceTree = "<group>"; };
 		4E89A5B2135FF463009FDB29 /* Php.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Php.xib; sourceTree = "<group>"; };
+		4E989C4013A16062008F37E2 /* python.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = python.png; path = ../../../../Downloads/MEPP/icons/python.png; sourceTree = SOURCE_ROOT; };
+		4E989C4A13A1634E008F37E2 /* Python.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Python.xib; sourceTree = "<group>"; };
+		4E989C4C13A166C1008F37E2 /* PythonViewController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = PythonViewController.py; sourceTree = "<group>"; };
 		4ED017FC1347BC420003ACF3 /* MNPPController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MNPPController.py; sourceTree = "<group>"; };
 		4ED018071347C1050003ACF3 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
 		4ED0180C1347C1620003ACF3 /* PreferencesController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = PreferencesController.py; sourceTree = "<group>"; };
@@ -99,7 +105,7 @@
 		29B97314FDCFA39411CA2CEA /* MNPP */ = {
 			isa = PBXGroup;
 			children = (
-				4E89A4D2135FE26E009FDB29 /* php.png */,
+				4E989C3F13A16025008F37E2 /* icons */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -112,6 +118,8 @@
 				4E89A5B2135FF463009FDB29 /* Php.xib */,
 				4EDD332F13634BA60053CCA2 /* GeneralViewController.py */,
 				4EDD33E013638CC70053CCA2 /* PhpViewController.py */,
+				4E989C4A13A1634E008F37E2 /* Python.xib */,
+				4E989C4C13A166C1008F37E2 /* PythonViewController.py */,
 			);
 			name = MNPP;
 			sourceTree = "<group>";
@@ -143,6 +151,15 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E989C3F13A16025008F37E2 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				4E989C4013A16062008F37E2 /* python.png */,
+				4E89A4D2135FE26E009FDB29 /* php.png */,
+			);
+			name = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +224,9 @@
 				4E89A5B3135FF463009FDB29 /* Php.xib in Resources */,
 				4EDD333013634BA60053CCA2 /* GeneralViewController.py in Resources */,
 				4EDD33E113638CC70053CCA2 /* PhpViewController.py in Resources */,
+				4E989C4113A16062008F37E2 /* python.png in Resources */,
+				4E989C4B13A1634E008F37E2 /* Python.xib in Resources */,
+				4E989C4D13A166C1008F37E2 /* PythonViewController.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

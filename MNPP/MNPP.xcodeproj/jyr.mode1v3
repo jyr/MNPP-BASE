@@ -277,7 +277,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>14</integer>
+									<integer>7</integer>
+									<integer>4</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -317,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MNPPController.py</string>
+								<string>main.py</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,19 +326,19 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MNPPController.py</string>
+										<string>main.py</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>4EAC5ECD139B2E0F0077D20E</string>
+										<string>4E989C2E13A14FA5008F37E2</string>
 										<key>history</key>
 										<array>
-											<string>4EDD35281363F9880053CCA2</string>
 											<string>4E3BB99D13654692000DEF6A</string>
 											<string>4E3BB99E13654692000DEF6A</string>
 											<string>4EAC5E2C139B10190077D20E</string>
 											<string>4EAC5ECB139B2E0F0077D20E</string>
-											<string>4EAC5ECC139B2E0F0077D20E</string>
+											<string>4EB37AC0139E05AA005BCE22</string>
+											<string>4E989C2D13A14FA5008F37E2</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -349,14 +350,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 542}}</string>
+								<string>{{0, 0}, {1072, 536}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 98 1280 680 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>542pt</string>
+							<string>536pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -369,14 +370,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 547}, {1072, 92}}</string>
+								<string>{{0, 541}, {1072, 98}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 98 1280 680 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>92pt</string>
+							<string>98pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -395,9 +396,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>4EAC5CAA139AA86D0077D20E</string>
+				<string>4E989C2F13A14FA5008F37E2</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>4EAC5CAB139AA86D0077D20E</string>
+				<string>4E989C3013A14FA5008F37E2</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -535,11 +536,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>4EAC5CB5139AA86D0077D20E</string>
-		<string>4EAC5CB6139AA86D0077D20E</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>4ED017E71347B6780003ACF3</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/jyr/Desarrollo/personal/MNPP-BASE/MNPP/MNPP.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -620,7 +617,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>4ED017E71347B6780003ACF3</string>
-				<string>4EAC5CAC139AA86D0077D20E</string>
+				<string>4E989C3113A14FA5008F37E2</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
