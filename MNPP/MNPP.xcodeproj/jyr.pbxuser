@@ -71,51 +71,90 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 329432964;
-			PBXWorkspaceStateSaveDate = 329432964;
+			PBXPerProjectTemplateStateSaveDate = 329688455;
+			PBXWorkspaceStateSaveDate = 329688455;
 		};
 		perUserProjectItems = {
-			4E25D37013A2BF9C00E7AEE7 /* PBXTextBookmark */ = 4E25D37013A2BF9C00E7AEE7 /* PBXTextBookmark */;
-			4E25D37A13A2C79300E7AEE7 /* PBXTextBookmark */ = 4E25D37A13A2C79300E7AEE7 /* PBXTextBookmark */;
+			4E170A3313A4A82100DF3248 = 4E170A3313A4A82100DF3248 /* PBXTextBookmark */;
+			4E170A3413A4A82100DF3248 = 4E170A3413A4A82100DF3248 /* PBXTextBookmark */;
+			4E170A3513A4A82100DF3248 = 4E170A3513A4A82100DF3248 /* PBXTextBookmark */;
+			4E170A3613A4A82100DF3248 = 4E170A3613A4A82100DF3248 /* PBXTextBookmark */;
+			4E25D38613A313A000E7AEE7 = 4E25D38613A313A000E7AEE7 /* PBXTextBookmark */;
+			4E4E5E3B13A6A58A008D1F7F /* PBXTextBookmark */ = 4E4E5E3B13A6A58A008D1F7F /* PBXTextBookmark */;
 			4E989C8213A1E81C008F37E2 = 4E989C8213A1E81C008F37E2 /* PBXTextBookmark */;
 			4E989C8313A1E81C008F37E2 = 4E989C8313A1E81C008F37E2 /* PBXBookmark */;
 			4E989C8413A1E81C008F37E2 = 4E989C8413A1E81C008F37E2 /* PBXTextBookmark */;
 			4E989C8513A1E81C008F37E2 = 4E989C8513A1E81C008F37E2 /* PBXTextBookmark */;
-			4E989C8613A1E81C008F37E2 = 4E989C8613A1E81C008F37E2 /* PBXTextBookmark */;
-			4E989C8713A1E81C008F37E2 = 4E989C8713A1E81C008F37E2 /* PBXTextBookmark */;
-			4E989C8813A1E81C008F37E2 = 4E989C8813A1E81C008F37E2 /* PBXTextBookmark */;
-			4E989C8913A1E81C008F37E2 = 4E989C8913A1E81C008F37E2 /* PBXTextBookmark */;
-			4EAC5ECB139B2E0F0077D20E = 4EAC5ECB139B2E0F0077D20E /* PBXTextBookmark */;
 		};
 		sourceControlManager = 4ED017E91347B6780003ACF3 /* Source Control */;
 		userBuildSettings = {
 		};
 	};
-	4E25D37013A2BF9C00E7AEE7 /* PBXTextBookmark */ = {
+	4E170A3313A4A82100DF3248 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 4ED017FC1347BC420003ACF3 /* MNPPController.py */;
-		name = "MNPPController.py: 285";
+		fRef = 4E989C4C13A166C1008F37E2 /* PythonViewController.py */;
+		name = "PythonViewController.py: 22";
 		rLen = 0;
-		rLoc = 7252;
+		rLoc = 490;
 		rType = 0;
-		vrLen = 899;
-		vrLoc = 6399;
+		vrLen = 491;
+		vrLoc = 0;
 	};
-	4E25D37A13A2C79300E7AEE7 /* PBXTextBookmark */ = {
+	4E170A3413A4A82100DF3248 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 4ED017FC1347BC420003ACF3 /* MNPPController.py */;
 		name = "MNPPController.py: 286";
 		rLen = 0;
 		rLoc = 7298;
 		rType = 0;
-		vrLen = 867;
-		vrLoc = 6431;
+		vrLen = 896;
+		vrLoc = 0;
+	};
+	4E170A3513A4A82100DF3248 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* MNPPAppDelegate.py */;
+		name = "MNPPAppDelegate.py: 121";
+		rLen = 0;
+		rLoc = 3353;
+		rType = 0;
+		vrLen = 900;
+		vrLoc = 0;
+	};
+	4E170A3613A4A82100DF3248 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* MNPPAppDelegate.py */;
+		name = "MNPPAppDelegate.py: 121";
+		rLen = 0;
+		rLoc = 3353;
+		rType = 0;
+		vrLen = 900;
+		vrLoc = 0;
+	};
+	4E25D38613A313A000E7AEE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */;
+		name = "PreferencesController.py: 52";
+		rLen = 0;
+		rLoc = 1546;
+		rType = 0;
+		vrLen = 657;
+		vrLoc = 1956;
+	};
+	4E4E5E3B13A6A58A008D1F7F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* MNPPAppDelegate.py */;
+		name = "MNPPAppDelegate.py: 121";
+		rLen = 0;
+		rLoc = 3353;
+		rType = 0;
+		vrLen = 898;
+		vrLoc = 2;
 	};
 	4E989C4C13A166C1008F37E2 /* PythonViewController.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 504}}";
-			sepNavSelRange = "{369, 0}";
-			sepNavVisRange = "{0, 520}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 432}}";
+			sepNavSelRange = "{490, 0}";
+			sepNavVisRange = "{0, 491}";
 		};
 	};
 	4E989C8213A1E81C008F37E2 /* PBXTextBookmark */ = {
@@ -151,56 +190,6 @@
 		rType = 0;
 		vrLen = 866;
 		vrLoc = 0;
-	};
-	4E989C8613A1E81C008F37E2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4E989C4C13A166C1008F37E2 /* PythonViewController.py */;
-		name = "PythonViewController.py: 16";
-		rLen = 0;
-		rLoc = 369;
-		rType = 0;
-		vrLen = 520;
-		vrLoc = 0;
-	};
-	4E989C8713A1E81C008F37E2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */;
-		name = "PreferencesController.py: 52";
-		rLen = 0;
-		rLoc = 1546;
-		rType = 0;
-		vrLen = 1187;
-		vrLoc = 136;
-	};
-	4E989C8813A1E81C008F37E2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4ED017FC1347BC420003ACF3 /* MNPPController.py */;
-		name = "MNPPController.py: 268";
-		rLen = 0;
-		rLoc = 6855;
-		rType = 0;
-		vrLen = 917;
-		vrLoc = 6281;
-	};
-	4E989C8913A1E81C008F37E2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4ED017FC1347BC420003ACF3 /* MNPPController.py */;
-		name = "MNPPController.py: 277";
-		rLen = 0;
-		rLoc = 7034;
-		rType = 0;
-		vrLen = 327;
-		vrLoc = 0;
-	};
-	4EAC5ECB139B2E0F0077D20E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7790198E0C07548A00326F66 /* MNPPAppDelegate.py */;
-		name = "MNPPAppDelegate.py: 121";
-		rLen = 0;
-		rLoc = 3353;
-		rType = 0;
-		vrLen = 1247;
-		vrLoc = 390;
 	};
 	4ED017D71347B6640003ACF3 /* MNPP */ = {
 		isa = PBXExecutable;
@@ -248,17 +237,17 @@
 	};
 	4ED017FC1347BC420003ACF3 /* MNPPController.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 3770}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 3718}}";
 			sepNavSelRange = "{7298, 0}";
-			sepNavVisRange = "{6431, 867}";
+			sepNavVisRange = "{0, 896}";
 			sepNavWindowFrame = "{{15, 184}, {1122, 589}}";
 		};
 	};
 	4ED0180C1347C1620003ACF3 /* PreferencesController.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 1885}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1872}}";
 			sepNavSelRange = "{1546, 0}";
-			sepNavVisRange = "{136, 1187}";
+			sepNavVisRange = "{1956, 657}";
 			sepNavWindowFrame = "{{38, 163}, {1122, 589}}";
 		};
 	};
@@ -288,7 +277,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1011, 1573}}";
 			sepNavSelRange = "{3353, 0}";
-			sepNavVisRange = "{390, 1247}";
+			sepNavVisRange = "{2, 898}";
 			sepNavWindowFrame = "{{15, 184}, {1122, 589}}";
 		};
 	};

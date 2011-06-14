@@ -71,6 +71,10 @@ class MNPPController (NSWindowController):
 		try:
 			self.checkPhpVersion()
 			stopScript = self.path + "stop" + self.phpVersion
+			print "PHP Version"
+			print self.phpVersion
+			print "PATH STOP "
+			print stopScript
 			self.disableUwsgi()
 			self.auth.executeWithPrivileges(stopScript)
 
