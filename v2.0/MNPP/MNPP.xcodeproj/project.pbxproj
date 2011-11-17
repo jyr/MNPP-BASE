@@ -3,21 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 44;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E4EB4B31470859E0092EB27 /* php.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E4EB4B21470859E0092EB27 /* php.png */; };
-		4E4EB4B5147085A90092EB27 /* python.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E4EB4B4147085A90092EB27 /* python.png */; };
-		4E89A5AB135FF2FD009FDB29 /* General.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E89A5AA135FF2FD009FDB29 /* General.xib */; };
-		4E89A5B3135FF463009FDB29 /* Php.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E89A5B2135FF463009FDB29 /* Php.xib */; };
-		4E989C4B13A1634E008F37E2 /* Python.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E989C4A13A1634E008F37E2 /* Python.xib */; };
-		4E989C4D13A166C1008F37E2 /* PythonViewController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4E989C4C13A166C1008F37E2 /* PythonViewController.py */; };
-		4ED017FD1347BC420003ACF3 /* MNPPController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4ED017FC1347BC420003ACF3 /* MNPPController.py */; };
-		4ED018081347C1050003ACF3 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED018071347C1050003ACF3 /* Preferences.xib */; };
-		4ED0180D1347C1620003ACF3 /* PreferencesController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4ED0180C1347C1620003ACF3 /* PreferencesController.py */; };
-		4EDD333013634BA60053CCA2 /* GeneralViewController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD332F13634BA60053CCA2 /* GeneralViewController.py */; };
-		4EDD33E113638CC70053CCA2 /* PhpViewController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD33E013638CC70053CCA2 /* PhpViewController.py */; };
+		4E06ACE513F1C77700433741 /* MenuBarController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4E06ACE413F1C77700433741 /* MenuBarController.py */; };
+		4E06AD3513F1E21900433741 /* WindowView.py in Resources */ = {isa = PBXBuildFile; fileRef = 4E06AD3413F1E21900433741 /* WindowView.py */; };
+		4E2955BA13F4EE6100C587DD /* Panel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E8091DF13F21B410025366C /* Panel.xib */; };
+		4E2955C113F4EEA900C587DD /* BackgroundView.py in Resources */ = {isa = PBXBuildFile; fileRef = 4E2955C013F4EEA900C587DD /* BackgroundView.py */; };
+		4E80923D13F2F9AF0025366C /* PanelController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4E80923C13F2F9AF0025366C /* PanelController.py */; };
+		4E8092B713F324FC0025366C /* StatusItemController.py in Resources */ = {isa = PBXBuildFile; fileRef = 4E8092B613F324FC0025366C /* StatusItemController.py */; };
 		77631A270C06C501005415CB /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77631A260C06C501005415CB /* Python.framework */; };
 		77631A3F0C0748CF005415CB /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 77631A3E0C0748CF005415CB /* main.py */; };
 		7790198F0C07548A00326F66 /* MNPPAppDelegate.py in Resources */ = {isa = PBXBuildFile; fileRef = 7790198E0C07548A00326F66 /* MNPPAppDelegate.py */; };
@@ -35,17 +30,12 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* MNPP_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNPP_Prefix.pch; sourceTree = "<group>"; };
-		4E4EB4B21470859E0092EB27 /* php.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = php.png; sourceTree = "<group>"; };
-		4E4EB4B4147085A90092EB27 /* python.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = python.png; sourceTree = "<group>"; };
-		4E89A5AA135FF2FD009FDB29 /* General.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = General.xib; sourceTree = "<group>"; };
-		4E89A5B2135FF463009FDB29 /* Php.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Php.xib; sourceTree = "<group>"; };
-		4E989C4A13A1634E008F37E2 /* Python.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Python.xib; sourceTree = "<group>"; };
-		4E989C4C13A166C1008F37E2 /* PythonViewController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = PythonViewController.py; sourceTree = "<group>"; };
-		4ED017FC1347BC420003ACF3 /* MNPPController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MNPPController.py; sourceTree = "<group>"; };
-		4ED018071347C1050003ACF3 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
-		4ED0180C1347C1620003ACF3 /* PreferencesController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = PreferencesController.py; sourceTree = "<group>"; };
-		4EDD332F13634BA60053CCA2 /* GeneralViewController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = GeneralViewController.py; sourceTree = "<group>"; };
-		4EDD33E013638CC70053CCA2 /* PhpViewController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = PhpViewController.py; sourceTree = "<group>"; };
+		4E06ACE413F1C77700433741 /* MenuBarController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MenuBarController.py; sourceTree = "<group>"; };
+		4E06AD3413F1E21900433741 /* WindowView.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = WindowView.py; sourceTree = "<group>"; };
+		4E2955C013F4EEA900C587DD /* BackgroundView.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = BackgroundView.py; sourceTree = "<group>"; };
+		4E8091DF13F21B410025366C /* Panel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Panel.xib; sourceTree = "<group>"; };
+		4E80923C13F2F9AF0025366C /* PanelController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = PanelController.py; sourceTree = "<group>"; };
+		4E8092B613F324FC0025366C /* StatusItemController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = StatusItemController.py; sourceTree = "<group>"; };
 		77631A260C06C501005415CB /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /System/Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
 		77631A3E0C0748CF005415CB /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
 		7790198E0C07548A00326F66 /* MNPPAppDelegate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MNPPAppDelegate.py; sourceTree = "<group>"; };
@@ -70,7 +60,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7790198E0C07548A00326F66 /* MNPPAppDelegate.py */,
+				4E06ACA913F1B7D400433741 /* Views */,
+				4E06ACA813F1B7C700433741 /* Controllers */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -105,21 +96,12 @@
 		29B97314FDCFA39411CA2CEA /* MNPP */ = {
 			isa = PBXGroup;
 			children = (
-				4E989C3F13A16025008F37E2 /* icons */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				4ED017FC1347BC420003ACF3 /* MNPPController.py */,
-				4ED018071347C1050003ACF3 /* Preferences.xib */,
-				4ED0180C1347C1620003ACF3 /* PreferencesController.py */,
-				4E89A5AA135FF2FD009FDB29 /* General.xib */,
-				4E89A5B2135FF463009FDB29 /* Php.xib */,
-				4EDD332F13634BA60053CCA2 /* GeneralViewController.py */,
-				4EDD33E013638CC70053CCA2 /* PhpViewController.py */,
-				4E989C4A13A1634E008F37E2 /* Python.xib */,
-				4E989C4C13A166C1008F37E2 /* PythonViewController.py */,
+				4E8091DF13F21B410025366C /* Panel.xib */,
 			);
 			name = MNPP;
 			sourceTree = "<group>";
@@ -153,13 +135,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4E989C3F13A16025008F37E2 /* icons */ = {
+		4E06ACA813F1B7C700433741 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4E4EB4B4147085A90092EB27 /* python.png */,
-				4E4EB4B21470859E0092EB27 /* php.png */,
+				4E80923C13F2F9AF0025366C /* PanelController.py */,
+				7790198E0C07548A00326F66 /* MNPPAppDelegate.py */,
+				4E06ACE413F1C77700433741 /* MenuBarController.py */,
+				4E8092B613F324FC0025366C /* StatusItemController.py */,
 			);
-			name = icons;
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4E06ACA913F1B7D400433741 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E06AD3413F1E21900433741 /* WindowView.py */,
+				4E2955C013F4EEA900C587DD /* BackgroundView.py */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,11 +181,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0420;
-			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MNPP" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 3.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -219,17 +209,12 @@
 				77631A3F0C0748CF005415CB /* main.py in Resources */,
 				7790198F0C07548A00326F66 /* MNPPAppDelegate.py in Resources */,
 				77C8C1F90C07829500965286 /* MainMenu.xib in Resources */,
-				4ED017FD1347BC420003ACF3 /* MNPPController.py in Resources */,
-				4ED018081347C1050003ACF3 /* Preferences.xib in Resources */,
-				4ED0180D1347C1620003ACF3 /* PreferencesController.py in Resources */,
-				4E89A5AB135FF2FD009FDB29 /* General.xib in Resources */,
-				4E89A5B3135FF463009FDB29 /* Php.xib in Resources */,
-				4EDD333013634BA60053CCA2 /* GeneralViewController.py in Resources */,
-				4EDD33E113638CC70053CCA2 /* PhpViewController.py in Resources */,
-				4E989C4B13A1634E008F37E2 /* Python.xib in Resources */,
-				4E989C4D13A166C1008F37E2 /* PythonViewController.py in Resources */,
-				4E4EB4B31470859E0092EB27 /* php.png in Resources */,
-				4E4EB4B5147085A90092EB27 /* python.png in Resources */,
+				4E06ACE513F1C77700433741 /* MenuBarController.py in Resources */,
+				4E06AD3513F1E21900433741 /* WindowView.py in Resources */,
+				4E80923D13F2F9AF0025366C /* PanelController.py in Resources */,
+				4E2955BA13F4EE6100C587DD /* Panel.xib in Resources */,
+				4E8092B713F324FC0025366C /* StatusItemController.py in Resources */,
+				4E2955C113F4EEA900C587DD /* BackgroundView.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +256,7 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -278,7 +264,6 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = MNPP;
-				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -287,7 +272,6 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -295,7 +279,6 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = MNPP;
-				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -303,20 +286,24 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				SDKROOT = macosx;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
 			};
 			name = Release;
