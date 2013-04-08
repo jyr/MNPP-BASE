@@ -66,22 +66,29 @@ class PreferencesController (NSWindowController):
 			self.GeneralController.open.setState_(NSOnState)
 		else:
 			self.GeneralController.open.setState_(NSOffState)
-		
+
+		php54 = settings.boolForKey_("php54")
 		php53 = settings.boolForKey_("php53")
-		
-		if php53:
+		php52 = settings.boolForKey_("php52")
+		if php54:
 			try:
+				self.PhpController.php54.setState_(NSOnState)
+				self.PhpController.php53.setState_(NSOffState)
+				self.PhpController.php52.setState_(NSOffState)
+			except:
+				pass
+		elif php53:
+			try:
+				self.PhpController.php54.setState_(NSOffState)
 				self.PhpController.php53.setState_(NSOnState)
 				self.PhpController.php52.setState_(NSOffState)
 			except:
 				pass
-
-		php52 = settings.boolForKey_("php52")
-
-		if php52:
+		elif php52:
 			try:
-				self.PhpController.php52.setState_(NSOnState)
+				self.PhpController.php54.setState_(NSOffState)
 				self.PhpController.php53.setState_(NSOffState)
+				self.PhpController.php52.setState_(NSOnState)
 			except:
 				pass
 
