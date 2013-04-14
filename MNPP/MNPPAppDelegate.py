@@ -6,6 +6,7 @@
 #  Copyright __MyCompanyName__ 2011. All rights reserved.
 #
 
+from time import sleep
 from Foundation import *
 from AppKit import *
 from MNPPController import MNPPController

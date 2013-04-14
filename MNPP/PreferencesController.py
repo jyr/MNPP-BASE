@@ -46,13 +46,6 @@ class PreferencesController (NSWindowController):
 	def setSettings(self):		
 		settings = NSUserDefaults.standardUserDefaults()
 
-		startMNPP = settings.boolForKey_("start")
-
-		if startMNPP:
-			self.GeneralController.start.setState_(NSOnState)
-		else:
-			self.GeneralController.start.setState_(NSOffState)
-
 		stopMNPP = settings.boolForKey_("stop")
 
 		if stopMNPP:

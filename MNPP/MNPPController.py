@@ -34,7 +34,7 @@ class MNPPController (NSWindowController):
 		try:
 			self.checkPhpVersion()
 			startScript = self.path + "start" + self.phpVersion
-			print startScript
+
 			self.auth.executeWithPrivileges(startScript)
 			self.enableUwsgi()
 		except:
@@ -45,7 +45,7 @@ class MNPPController (NSWindowController):
 		try:
 			self.checkPhpVersion()
 			stopScript = self.path + "stop" + self.phpVersion
-			print stopScript
+
 			self.disableUwsgi()
 			self.auth.executeWithPrivileges(stopScript)
 		except:
