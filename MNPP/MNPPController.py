@@ -50,7 +50,18 @@ class MNPPController (NSWindowController):
 			self.auth.executeWithPrivileges(stopScript)
 		except:
 			pass
-	
+
+    @objc.IBAction
+    def restartServers_(self, sender):
+        try:
+            self.checkPhpVersion()
+            restartScript = self.path + "restart" + self.phpVersion
+        
+            self.disableUwsgi()
+            self.auth.executeWithPrivileges(restartScript)
+        except:
+            pass
+
     @objc.IBAction
     def openPage_(self, sender):
 		urlMNPP = NSURL.URLWithString_("http://mnpp.local")

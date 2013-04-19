@@ -57,8 +57,7 @@ class MNPPAppDelegate(NSObject):
 
     @objc.IBAction
     def restartServers_(self, sender):
-        self.mnppController.stopServers_(self)
-        self.mnppController.startServers_(self)
+        self.mnppController.restartServers_(self)
             
 
     @objc.IBAction
