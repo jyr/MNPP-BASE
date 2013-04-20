@@ -2,13 +2,13 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="7.10">
 	<data>
 		<int key="IBDocument.SystemTarget">1070</int>
-		<string key="IBDocument.SystemVersion">11C74</string>
-		<string key="IBDocument.InterfaceBuilderVersion">1938</string>
-		<string key="IBDocument.AppKitVersion">1138.23</string>
-		<string key="IBDocument.HIToolboxVersion">567.00</string>
+		<string key="IBDocument.SystemVersion">11G63</string>
+		<string key="IBDocument.InterfaceBuilderVersion">2182</string>
+		<string key="IBDocument.AppKitVersion">1138.51</string>
+		<string key="IBDocument.HIToolboxVersion">569.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">1938</string>
+			<string key="NS.object.0">2182</string>
 		</object>
 		<object class="NSArray" key="IBDocument.IntegratedClassDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1134,7 +1134,7 @@
 				<nil key="NSViewClass"/>
 				<nil key="NSUserInterfaceItemIdentifier"/>
 				<object class="NSView" key="NSWindowView" id="179279630">
-					<reference key="NSNextResponder"/>
+					<nil key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<object class="NSMutableArray" key="NSSubviews">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1143,7 +1143,6 @@
 							<int key="NSvFlags">12</int>
 							<string key="NSFrame">{{13, 58}, {243, 204}}</string>
 							<reference key="NSSuperview" ref="179279630"/>
-							<reference key="NSWindow"/>
 							<object class="NSShadow" key="NSViewShadow">
 								<object class="NSColor" key="NSShadowColor" id="394434028">
 									<int key="NSColorSpace">3</int>
@@ -1165,7 +1164,6 @@
 												<int key="NSvFlags">268</int>
 												<string key="NSFrame">{{52, 55}, {118, 25}}</string>
 												<reference key="NSSuperview" ref="903934113"/>
-												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="599844166"/>
 												<int key="NSViewLayerContentsRedrawPolicy">2</int>
 												<bool key="NSEnabled">YES</bool>
@@ -1192,7 +1190,6 @@
 												<int key="NSvFlags">-2147483380</int>
 												<string key="NSFrame">{{52, 55}, {118, 25}}</string>
 												<reference key="NSSuperview" ref="903934113"/>
-												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="474203536"/>
 												<int key="NSViewLayerContentsRedrawPolicy">2</int>
 												<bool key="NSEnabled">YES</bool>
@@ -1213,7 +1210,6 @@
 										</object>
 										<string key="NSFrame">{{10, 33}, {223, 158}}</string>
 										<reference key="NSSuperview" ref="488834752"/>
-										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="198495200"/>
 										<int key="NSViewLayerContentsRedrawPolicy">2</int>
 									</object>
@@ -1359,7 +1355,6 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{75, 36}, {118, 25}}</string>
 							<reference key="NSSuperview" ref="179279630"/>
-							<reference key="NSWindow"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="590533727">
@@ -1381,7 +1376,6 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{47, 315}, {174, 25}}</string>
 							<reference key="NSSuperview" ref="179279630"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="892241959"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<bool key="NSEnabled">YES</bool>
@@ -1404,7 +1398,6 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{47, 285}, {174, 25}}</string>
 							<reference key="NSSuperview" ref="179279630"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="488834752"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<bool key="NSEnabled">YES</bool>
@@ -1427,7 +1420,6 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{62, 347}, {144, 57}}</string>
 							<reference key="NSSuperview" ref="179279630"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="1018179479"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<bool key="NSEnabled">YES</bool>
@@ -1455,7 +1447,6 @@
 							<int key="NSvFlags">-2147483380</int>
 							<string key="NSFrame">{{47, 315}, {174, 25}}</string>
 							<reference key="NSSuperview" ref="179279630"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="306064651"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<bool key="NSEnabled">YES</bool>
@@ -1475,8 +1466,6 @@
 						</object>
 					</object>
 					<string key="NSFrameSize">{269, 424}</string>
-					<reference key="NSSuperview"/>
-					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="207857839"/>
 					<bool key="NSViewIsLayerTreeHost">YES</bool>
 					<object class="NSShadow" key="NSViewShadow">
@@ -1494,37 +1483,13 @@
 				<string key="NSTitle"/>
 				<object class="NSMutableArray" key="NSMenuItems">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="NSMenuItem" id="677628192">
+					<object class="NSMenuItem" id="540691690">
 						<reference key="NSMenu" ref="586240883"/>
-						<string key="NSTitle">General</string>
+						<string key="NSTitle">Restart services</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="715147791"/>
 						<reference key="NSMixedImage" ref="897496305"/>
-						<string key="NSAction">submenuAction:</string>
-						<object class="NSMenu" key="NSSubmenu" id="244919820">
-							<string key="NSTitle">General</string>
-							<object class="NSMutableArray" key="NSMenuItems">
-								<bool key="EncodedWithXMLCoder">YES</bool>
-								<object class="NSMenuItem" id="291850995">
-									<reference key="NSMenu" ref="244919820"/>
-									<string key="NSTitle">Start services</string>
-									<string key="NSKeyEquiv"/>
-									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="715147791"/>
-									<reference key="NSMixedImage" ref="897496305"/>
-								</object>
-								<object class="NSMenuItem" id="284543855">
-									<reference key="NSMenu" ref="244919820"/>
-									<bool key="NSIsHidden">YES</bool>
-									<string key="NSTitle">Stop services</string>
-									<string key="NSKeyEquiv"/>
-									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="715147791"/>
-									<reference key="NSMixedImage" ref="897496305"/>
-								</object>
-							</object>
-						</object>
 					</object>
 					<object class="NSMenuItem" id="1031872588">
 						<reference key="NSMenu" ref="586240883"/>
@@ -1545,67 +1510,6 @@
 						<reference key="NSMixedImage" ref="897496305"/>
 					</object>
 					<object class="NSMenuItem" id="558548363">
-						<reference key="NSMenu" ref="586240883"/>
-						<bool key="NSIsDisabled">YES</bool>
-						<bool key="NSIsSeparator">YES</bool>
-						<string key="NSTitle"/>
-						<string key="NSKeyEquiv"/>
-						<int key="NSMnemonicLoc">2147483647</int>
-						<reference key="NSOnImage" ref="715147791"/>
-						<reference key="NSMixedImage" ref="897496305"/>
-					</object>
-					<object class="NSMenuItem" id="570170789">
-						<reference key="NSMenu" ref="586240883"/>
-						<string key="NSTitle">Start nginx</string>
-						<string key="NSKeyEquiv"/>
-						<int key="NSMnemonicLoc">2147483647</int>
-						<reference key="NSOnImage" ref="715147791"/>
-						<reference key="NSMixedImage" ref="897496305"/>
-					</object>
-					<object class="NSMenuItem" id="430936000">
-						<reference key="NSMenu" ref="586240883"/>
-						<bool key="NSIsHidden">YES</bool>
-						<string key="NSTitle">Stop nginx</string>
-						<string key="NSKeyEquiv"/>
-						<int key="NSMnemonicLoc">2147483647</int>
-						<reference key="NSOnImage" ref="715147791"/>
-						<reference key="NSMixedImage" ref="897496305"/>
-					</object>
-					<object class="NSMenuItem" id="978249135">
-						<reference key="NSMenu" ref="586240883"/>
-						<string key="NSTitle">Start percona</string>
-						<string key="NSKeyEquiv"/>
-						<int key="NSMnemonicLoc">2147483647</int>
-						<reference key="NSOnImage" ref="715147791"/>
-						<reference key="NSMixedImage" ref="897496305"/>
-					</object>
-					<object class="NSMenuItem" id="831468834">
-						<reference key="NSMenu" ref="586240883"/>
-						<bool key="NSIsHidden">YES</bool>
-						<string key="NSTitle">Stop percona</string>
-						<string key="NSKeyEquiv"/>
-						<int key="NSMnemonicLoc">2147483647</int>
-						<reference key="NSOnImage" ref="715147791"/>
-						<reference key="NSMixedImage" ref="897496305"/>
-					</object>
-					<object class="NSMenuItem" id="76784360">
-						<reference key="NSMenu" ref="586240883"/>
-						<string key="NSTitle">Start PHP</string>
-						<string key="NSKeyEquiv"/>
-						<int key="NSMnemonicLoc">2147483647</int>
-						<reference key="NSOnImage" ref="715147791"/>
-						<reference key="NSMixedImage" ref="897496305"/>
-					</object>
-					<object class="NSMenuItem" id="1070325415">
-						<reference key="NSMenu" ref="586240883"/>
-						<bool key="NSIsHidden">YES</bool>
-						<string key="NSTitle">Stop PHP</string>
-						<string key="NSKeyEquiv"/>
-						<int key="NSMnemonicLoc">2147483647</int>
-						<reference key="NSOnImage" ref="715147791"/>
-						<reference key="NSMixedImage" ref="897496305"/>
-					</object>
-					<object class="NSMenuItem" id="1011996582">
 						<reference key="NSMenu" ref="586240883"/>
 						<bool key="NSIsDisabled">YES</bool>
 						<bool key="NSIsSeparator">YES</bool>
@@ -1636,22 +1540,6 @@
 						<reference key="destination" ref="610635028"/>
 					</object>
 					<int key="connectionID">374</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">stopButton</string>
-						<reference key="source" ref="1021"/>
-						<reference key="destination" ref="892241959"/>
-					</object>
-					<int key="connectionID">480</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">startButton</string>
-						<reference key="source" ref="1021"/>
-						<reference key="destination" ref="1018179479"/>
-					</object>
-					<int key="connectionID">481</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
@@ -1710,60 +1598,12 @@
 					<int key="connectionID">488</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">stopMySQL</string>
-						<reference key="source" ref="1021"/>
-						<reference key="destination" ref="660118880"/>
-					</object>
-					<int key="connectionID">493</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">startMySQL</string>
-						<reference key="source" ref="1021"/>
-						<reference key="destination" ref="977165285"/>
-					</object>
-					<int key="connectionID">494</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">startNginx</string>
-						<reference key="source" ref="1021"/>
-						<reference key="destination" ref="198495200"/>
-					</object>
-					<int key="connectionID">495</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">stopNginx</string>
-						<reference key="source" ref="1021"/>
-						<reference key="destination" ref="599844166"/>
-					</object>
-					<int key="connectionID">496</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
 						<string key="label">exit:</string>
 						<reference key="source" ref="1021"/>
 						<reference key="destination" ref="474203536"/>
 					</object>
 					<int key="connectionID">497</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">stopPHP</string>
-						<reference key="source" ref="1021"/>
-						<reference key="destination" ref="246279179"/>
-					</object>
-					<int key="connectionID">498</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">startPHP</string>
-						<reference key="source" ref="1021"/>
-						<reference key="destination" ref="48835563"/>
-					</object>
-					<int key="connectionID">499</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
@@ -2271,43 +2111,11 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
-						<string key="label">startNginx:</string>
-						<reference key="source" ref="610635028"/>
-						<reference key="destination" ref="570170789"/>
-					</object>
-					<int key="connectionID">532</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">startMySQL:</string>
-						<reference key="source" ref="610635028"/>
-						<reference key="destination" ref="978249135"/>
-					</object>
-					<int key="connectionID">533</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
 						<string key="label">showPreferencesWindow:</string>
 						<reference key="source" ref="610635028"/>
 						<reference key="destination" ref="473678403"/>
 					</object>
 					<int key="connectionID">534</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">startServers:</string>
-						<reference key="source" ref="610635028"/>
-						<reference key="destination" ref="291850995"/>
-					</object>
-					<int key="connectionID">535</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">startPHP:</string>
-						<reference key="source" ref="610635028"/>
-						<reference key="destination" ref="76784360"/>
-					</object>
-					<int key="connectionID">536</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
@@ -2318,100 +2126,12 @@
 					<int key="connectionID">537</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">startNginx</string>
-						<reference key="source" ref="610635028"/>
-						<reference key="destination" ref="570170789"/>
-					</object>
-					<int key="connectionID">538</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">stopNginx</string>
-						<reference key="source" ref="610635028"/>
-						<reference key="destination" ref="430936000"/>
-					</object>
-					<int key="connectionID">540</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">stopMySQL</string>
-						<reference key="source" ref="610635028"/>
-						<reference key="destination" ref="831468834"/>
-					</object>
-					<int key="connectionID">543</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">stopPHP</string>
-						<reference key="source" ref="610635028"/>
-						<reference key="destination" ref="1070325415"/>
-					</object>
-					<int key="connectionID">544</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">startMySQL</string>
-						<reference key="source" ref="610635028"/>
-						<reference key="destination" ref="978249135"/>
-					</object>
-					<int key="connectionID">545</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">startPHP</string>
-						<reference key="source" ref="610635028"/>
-						<reference key="destination" ref="76784360"/>
-					</object>
-					<int key="connectionID">546</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
-						<string key="label">stopMySQL:</string>
+						<string key="label">restartServers:</string>
 						<reference key="source" ref="610635028"/>
-						<reference key="destination" ref="831468834"/>
+						<reference key="destination" ref="540691690"/>
 					</object>
-					<int key="connectionID">547</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">stopNginx:</string>
-						<reference key="source" ref="610635028"/>
-						<reference key="destination" ref="430936000"/>
-					</object>
-					<int key="connectionID">548</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">stopPHP:</string>
-						<reference key="source" ref="610635028"/>
-						<reference key="destination" ref="1070325415"/>
-					</object>
-					<int key="connectionID">549</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">stopServers:</string>
-						<reference key="source" ref="610635028"/>
-						<reference key="destination" ref="284543855"/>
-					</object>
-					<int key="connectionID">550</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">stopButton</string>
-						<reference key="source" ref="610635028"/>
-						<reference key="destination" ref="284543855"/>
-					</object>
-					<int key="connectionID">551</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">startButton</string>
-						<reference key="source" ref="610635028"/>
-						<reference key="destination" ref="291850995"/>
-					</object>
-					<int key="connectionID">552</int>
+					<int key="connectionID">561</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
@@ -3594,16 +3314,9 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="964383182"/>
 							<reference ref="473678403"/>
-							<reference ref="677628192"/>
 							<reference ref="1031872588"/>
 							<reference ref="558548363"/>
-							<reference ref="570170789"/>
-							<reference ref="978249135"/>
-							<reference ref="76784360"/>
-							<reference ref="1011996582"/>
-							<reference ref="430936000"/>
-							<reference ref="831468834"/>
-							<reference ref="1070325415"/>
+							<reference ref="540691690"/>
 						</object>
 						<reference key="parent" ref="1049"/>
 					</object>
@@ -3611,35 +3324,6 @@
 						<int key="objectID">507</int>
 						<reference key="object" ref="964383182"/>
 						<reference key="parent" ref="586240883"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">509</int>
-						<reference key="object" ref="677628192"/>
-						<object class="NSMutableArray" key="children">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="244919820"/>
-						</object>
-						<reference key="parent" ref="586240883"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">510</int>
-						<reference key="object" ref="244919820"/>
-						<object class="NSMutableArray" key="children">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="291850995"/>
-							<reference ref="284543855"/>
-						</object>
-						<reference key="parent" ref="677628192"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">505</int>
-						<reference key="object" ref="291850995"/>
-						<reference key="parent" ref="244919820"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">506</int>
-						<reference key="object" ref="284543855"/>
-						<reference key="parent" ref="244919820"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">512</int>
@@ -3657,42 +3341,10 @@
 						<reference key="parent" ref="586240883"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">515</int>
-						<reference key="object" ref="570170789"/>
+						<int key="objectID">557</int>
+						<reference key="object" ref="540691690"/>
 						<reference key="parent" ref="586240883"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">516</int>
-						<reference key="object" ref="978249135"/>
-						<reference key="parent" ref="586240883"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">518</int>
-						<reference key="object" ref="76784360"/>
-						<object class="NSMutableArray" key="children">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-						</object>
-						<reference key="parent" ref="586240883"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">522</int>
-						<reference key="object" ref="1011996582"/>
-						<reference key="parent" ref="586240883"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">539</int>
-						<reference key="object" ref="430936000"/>
-						<reference key="parent" ref="586240883"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">541</int>
-						<reference key="object" ref="831468834"/>
-						<reference key="parent" ref="586240883"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">542</int>
-						<reference key="object" ref="1070325415"/>
-						<reference key="parent" ref="586240883"/>
+						<string key="objectName">Menu Item - Restart services</string>
 					</object>
 				</object>
 			</object>
@@ -3850,21 +3502,11 @@
 					<string>479.IBPluginDependency</string>
 					<string>5.IBPluginDependency</string>
 					<string>504.IBPluginDependency</string>
-					<string>505.IBPluginDependency</string>
-					<string>506.IBPluginDependency</string>
 					<string>507.IBPluginDependency</string>
-					<string>509.IBPluginDependency</string>
-					<string>510.IBPluginDependency</string>
 					<string>512.IBPluginDependency</string>
 					<string>513.IBPluginDependency</string>
 					<string>514.IBPluginDependency</string>
-					<string>515.IBPluginDependency</string>
-					<string>516.IBPluginDependency</string>
-					<string>518.IBPluginDependency</string>
-					<string>522.IBPluginDependency</string>
-					<string>539.IBPluginDependency</string>
-					<string>541.IBPluginDependency</string>
-					<string>542.IBPluginDependency</string>
+					<string>557.IBPluginDependency</string>
 					<string>56.IBPluginDependency</string>
 					<string>57.IBPluginDependency</string>
 					<string>58.IBPluginDependency</string>
@@ -3881,7 +3523,7 @@
 					<string>83.IBPluginDependency</string>
 					<string>92.IBPluginDependency</string>
 				</object>
-				<object class="NSMutableArray" key="dict.values">
+				<object class="NSArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -4060,16 +3702,6 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="unlocalizedProperties">
@@ -4084,7 +3716,7 @@
 				<reference key="dict.values" ref="1049"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">556</int>
+			<int key="maxID">561</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -4097,23 +3729,13 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>exit:</string>
+							<string>restartServers:</string>
 							<string>showPreferencesWindow:</string>
-							<string>startMySQL:</string>
-							<string>startNginx:</string>
-							<string>startPHP:</string>
 							<string>startServers:</string>
-							<string>stopMySQL:</string>
-							<string>stopNginx:</string>
-							<string>stopPHP:</string>
 							<string>stopServers:</string>
 						</object>
-						<object class="NSMutableArray" key="dict.values">
+						<object class="NSArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -4126,20 +3748,19 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>exit:</string>
+							<string>restartServers:</string>
 							<string>showPreferencesWindow:</string>
-							<string>startMySQL:</string>
-							<string>startNginx:</string>
-							<string>startPHP:</string>
 							<string>startServers:</string>
-							<string>stopMySQL:</string>
-							<string>stopNginx:</string>
-							<string>stopPHP:</string>
 							<string>stopServers:</string>
 						</object>
-						<object class="NSMutableArray" key="dict.values">
+						<object class="NSArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBActionInfo">
 								<string key="name">exit:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">restartServers:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
@@ -4147,31 +3768,7 @@
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
-								<string key="name">startMySQL:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">startNginx:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">startPHP:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
 								<string key="name">startServers:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">stopMySQL:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">stopNginx:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">stopPHP:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
@@ -4185,27 +3782,11 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>preferences</string>
-							<string>startButton</string>
-							<string>startMySQL</string>
-							<string>startNginx</string>
-							<string>startPHP</string>
 							<string>statusMenu</string>
 							<string>step</string>
-							<string>stopButton</string>
-							<string>stopMySQL</string>
-							<string>stopNginx</string>
-							<string>stopPHP</string>
 						</object>
-						<object class="NSMutableArray" key="dict.values">
+						<object class="NSArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -4216,37 +3797,13 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>preferences</string>
-							<string>startButton</string>
-							<string>startMySQL</string>
-							<string>startNginx</string>
-							<string>startPHP</string>
 							<string>statusMenu</string>
 							<string>step</string>
-							<string>stopButton</string>
-							<string>stopMySQL</string>
-							<string>stopNginx</string>
-							<string>stopPHP</string>
 						</object>
-						<object class="NSMutableArray" key="dict.values">
+						<object class="NSArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBToOneOutletInfo">
 								<string key="name">preferences</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">startButton</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">startMySQL</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">startNginx</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">startPHP</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBToOneOutletInfo">
@@ -4255,22 +3812,6 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">step</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">stopButton</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">stopMySQL</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">stopNginx</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">stopPHP</string>
 								<string key="candidateClassName">id</string>
 							</object>
 						</object>
@@ -4300,7 +3841,7 @@
 							<string>stopPHP:</string>
 							<string>stopServers:</string>
 						</object>
-						<object class="NSMutableArray" key="dict.values">
+						<object class="NSArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>id</string>
 							<string>id</string>
@@ -4333,7 +3874,7 @@
 							<string>stopPHP:</string>
 							<string>stopServers:</string>
 						</object>
-						<object class="NSMutableArray" key="dict.values">
+						<object class="NSArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBActionInfo">
 								<string key="name">exit:</string>
@@ -4390,27 +3931,11 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>preferences</string>
-							<string>startButton</string>
-							<string>startMySQL</string>
-							<string>startNginx</string>
-							<string>startPHP</string>
 							<string>statusMenu</string>
-							<string>stopButton</string>
-							<string>stopMySQL</string>
-							<string>stopNginx</string>
-							<string>stopPHP</string>
 							<string>window</string>
 						</object>
-						<object class="NSMutableArray" key="dict.values">
+						<object class="NSArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -4421,57 +3946,17 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>preferences</string>
-							<string>startButton</string>
-							<string>startMySQL</string>
-							<string>startNginx</string>
-							<string>startPHP</string>
 							<string>statusMenu</string>
-							<string>stopButton</string>
-							<string>stopMySQL</string>
-							<string>stopNginx</string>
-							<string>stopPHP</string>
 							<string>window</string>
 						</object>
-						<object class="NSMutableArray" key="dict.values">
+						<object class="NSArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBToOneOutletInfo">
 								<string key="name">preferences</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBToOneOutletInfo">
-								<string key="name">startButton</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">startMySQL</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">startNginx</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">startPHP</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
 								<string key="name">statusMenu</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">stopButton</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">stopMySQL</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">stopNginx</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">stopPHP</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBToOneOutletInfo">
@@ -4483,73 +3968,6 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">./Classes/MNPPController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSDocument</string>
-					<object class="NSMutableDictionary" key="actions">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<object class="NSArray" key="dict.sortedKeys">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>printDocument:</string>
-							<string>revertDocumentToSaved:</string>
-							<string>runPageLayout:</string>
-							<string>saveDocument:</string>
-							<string>saveDocumentAs:</string>
-							<string>saveDocumentTo:</string>
-						</object>
-						<object class="NSMutableArray" key="dict.values">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-						</object>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<object class="NSArray" key="dict.sortedKeys">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>printDocument:</string>
-							<string>revertDocumentToSaved:</string>
-							<string>runPageLayout:</string>
-							<string>saveDocument:</string>
-							<string>saveDocumentAs:</string>
-							<string>saveDocumentTo:</string>
-						</object>
-						<object class="NSMutableArray" key="dict.values">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<object class="IBActionInfo">
-								<string key="name">printDocument:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">revertDocumentToSaved:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">runPageLayout:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">saveDocument:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">saveDocumentAs:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">saveDocumentTo:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-						</object>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/NSDocument.h</string>
 					</object>
 				</object>
 			</object>
@@ -4573,10 +3991,10 @@
 				<string>NSMenuCheckmark</string>
 				<string>NSMenuMixedState</string>
 			</object>
-			<object class="NSMutableArray" key="dict.values">
+			<object class="NSArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
-				<string>{9, 8}</string>
-				<string>{7, 2}</string>
+				<string>{11, 11}</string>
+				<string>{10, 3}</string>
 			</object>
 		</object>
 	</data>
